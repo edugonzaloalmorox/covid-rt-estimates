@@ -374,7 +374,7 @@ if (sys.nframe() == 0) {
   setup_log_from_args(args)
   if (args$datadir) {
     futile.logger::flog.debug("running with results output to data/results")
-    DATA_DIR <- "data/results"
+    DATA_DIR <<- "data/results"
   }else{
     futile.logger::flog.trace("outputting results to root folder")
   }
