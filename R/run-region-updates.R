@@ -66,6 +66,7 @@ run_regional_updates <- function(datasets, args) {
 rru_process_locations <- function(datasets, args, excludes, includes) {
   outcome <- list()
   for (location in datasets) {
+    futile.logger::flog.trace("processing dataset %s, targetting $s as output", location$name, location$target_folder)
     if (excludes[region == location$name & subregion == "*", .N] > 0) {
       futile.logger::flog.debug("skipping location %s as it is in the exclude/* list", location$name)
       next()
