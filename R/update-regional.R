@@ -23,17 +23,17 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
 
   # Update delays -----------------------------------------------------------
   if (is.na(location$generation_time)) {
-    location$generation_time <- readRDS(here::here("data", "generation_time.rds"))
+    location$generation_time <- readRDS(here::here("data/reference", "generation_time.rds"))
   }
   if (is.na(location$incubation_period)) {
-    location$incubation_period <- readRDS(here::here("data", "incubation_period.rds"))
+    location$incubation_period <- readRDS(here::here("data/reference", "incubation_period.rds"))
   }
   if (is.na(location$reporting_delay)) {
     if (location$name %in% c("deaths", "regional-deaths")) {
-      location$reporting_delay <- readRDS(here::here("data", "onset_to_death_delay.rds"))
+      location$reporting_delay <- readRDS(here::here("data/reference", "onset_to_death_delay.rds"))
     }
     else {
-      location$reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
+      location$reporting_delay <- readRDS(here::here("data/reference", "onset_to_admission_delay.rds"))
     }
   }
 
