@@ -14,8 +14,6 @@
 library(optparse, quietly = TRUE) # bring this in ready for setting up a proper CLI
 library(lubridate, quietly = TRUE) # pull in lubridate for the date handling in the summary
 
-# Pull in the definition of the datasets
-source(here::here("R", "dataset-list.R"))
 # get the script for processing each dataset (this one starts to deal with the model data rather
 # than just configuration )
 source(here::here("R", "update-regional.R"))
@@ -259,7 +257,8 @@ rru_cli_interface <- function(args_string = NA) {
     make_option(c("-u", "--unstable"), action = "store_true", default = FALSE, help = "Include unstable locations"),
     make_option(c("-f", "--force"), action = "store_true", default = FALSE, help = "Run even if data for a region has not been updated since the last run"),
     make_option(c("-t", "--timeout"), type = "integer", default = Inf, help = "Specify the maximum execution time in seconds that each sublocation will be allowed to run for. Note this is not the overall run time."),
-    make_option(c("-r", "--refresh"), action = "store_true", default = FALSE, help = "Should estimates be fully refreshed.")
+    make_option(c("-r", "--refresh"), action = "store_true", default = FALSE, help = "Should estimates be fully refreshed."),
+    make_option(c("-d", "--use-data-dir"), action = "store_true", default = FALSE, help = "Output the results into the data dir not root")
   )
   if (is.na(args_string)) {
     args <- parse_args(OptionParser(option_list = option_list))
@@ -371,5 +370,10 @@ loadStatusFile <- function(filename) {
 if (sys.nframe() == 0) {
   args <- rru_cli_interface()
   setup_log_from_args(args)
+  if (args$data_root_dir) {
+    DATA_DIR <- "data/results"
+  }
+  # Pull in the definition of the datasets after we have had the chance to
+  source(here::here("R", "dataset-list.R"))
   futile.logger::ftry(run_regional_updates(datasets = datasets, args = args))
 }
