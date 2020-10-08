@@ -27,7 +27,7 @@ datasets <- c(
              covid_regional_data_identifier = "UK",
              folder_name = "united-kingdom",
              dataset_folder_name = "deaths",
-             reporting_delay = readRDS(here::here("data", "cocin_onset_to_death_delay.rds")),
+             reporting_delay = readRDS(here::here("data/reference", "cocin_onset_to_death_delay.rds")),
              case_modifier = function(deaths) {
                deaths <- deaths[, cases_new := deaths_new]
                deaths <- add_uk(deaths)
