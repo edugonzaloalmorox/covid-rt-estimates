@@ -69,8 +69,9 @@ Region <- R6Class("Region",
                                   self$cases_subregion_source <- cases_subregion_source
                                   self$region_scale <- region_scale
                                   self$stable <- stable
+                                 root_dir <- ifelse(exists("DATA_DIR"), paste0(DATA_DIR, "/"), "")
                                   middle_folder <- ifelse(is.na(folder_name), name, folder_name)
-                                  self$target_folder <- paste0("subnational/", middle_folder, "/", dataset_folder_name, "/national")
-                                  self$summary_dir <- paste0("subnational/", middle_folder, "/", dataset_folder_name, "/summary")
+                                  self$target_folder <- paste0(root_dir, "subnational/", middle_folder, "/", dataset_folder_name, "/national")
+                                  self$summary_dir <- paste0(root_dir, "subnational/", middle_folder, "/", dataset_folder_name, "/summary")
                                 }))
 
