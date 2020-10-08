@@ -1,341 +1,341 @@
-region,date,type,median,lower_90,upper_90,lower_50,upper_50
-Brussels,2020-07-02,estimate,17,6,30,10,19
-Brussels,2020-07-03,estimate,16,4,27,8,17
-Brussels,2020-07-04,estimate,6,1,10,2,6
-Brussels,2020-07-05,estimate,2,0,5,0,2
-Brussels,2020-07-06,estimate,19,5,32,10,21
-Brussels,2020-07-07,estimate,18,5,31,10,20
-Brussels,2020-07-08,estimate,18,6,31,9,19
-Brussels,2020-07-09,estimate,19,5,32,9,20
-Brussels,2020-07-10,estimate,18,4,30,10,20
-Brussels,2020-07-11,estimate,6,1,11,2,6
-Brussels,2020-07-12,estimate,3,0,6,1,3
-Brussels,2020-07-13,estimate,21,7,35,13,24
-Brussels,2020-07-14,estimate,20,8,36,11,22
-Brussels,2020-07-15,estimate,21,6,36,14,25
-Brussels,2020-07-16,estimate,22,7,38,13,25
-Brussels,2020-07-17,estimate,22,7,37,14,25
-Brussels,2020-07-18,estimate,8,1,14,3,8
-Brussels,2020-07-19,estimate,3,0,7,0,3
-Brussels,2020-07-20,estimate,29,10,50,18,33
-Brussels,2020-07-21,estimate,30,11,51,19,35
-Brussels,2020-07-22,estimate,33,13,55,19,36
-Brussels,2020-07-23,estimate,38,16,63,23,41
-Brussels,2020-07-24,estimate,39,16,66,27,46
-Brussels,2020-07-25,estimate,14,5,25,8,16
-Brussels,2020-07-26,estimate,7,1,13,4,8
-Brussels,2020-07-27,estimate,58,24,100,35,65
-Brussels,2020-07-28,estimate,64,23,102,42,74
-Brussels,2020-07-29,estimate,70,29,116,45,79
-Brussels,2020-07-30,estimate,80,30,127,53,91
-Brussels,2020-07-31,estimate,82,33,132,57,97
-Brussels,2020-08-01,estimate,30,11,49,18,33
-Brussels,2020-08-02,estimate,14,3,24,7,15
-Brussels,2020-08-03,estimate,112,47,185,72,125
-Brussels,2020-08-04,estimate,119,46,191,81,138
-Brussels,2020-08-05,estimate,124,50,201,87,147
-Brussels,2020-08-06,estimate,132,59,217,94,157
-Brussels,2020-08-07,estimate,131,57,213,85,148
-Brussels,2020-08-08,estimate,45,17,75,29,51
-Brussels,2020-08-09,estimate,21,6,34,13,24
-Brussels,2020-08-10,estimate,156,67,259,109,185
-Brussels,2020-08-11,estimate,152,69,261,103,176
-Brussels,2020-08-12,estimate,155,64,252,104,177
-Brussels,2020-08-13,estimate,158,70,261,110,184
-Brussels,2020-08-14,estimate,145,62,230,98,165
-Brussels,2020-08-15,estimate,49,18,81,30,55
-Brussels,2020-08-16,estimate,21,8,37,14,25
-Brussels,2020-08-17,estimate,160,66,257,101,177
-Brussels,2020-08-18,estimate,152,66,247,96,169
-Brussels,2020-08-19,estimate,150,60,243,107,179
-Brussels,2020-08-20,estimate,153,70,256,101,175
-Brussels,2020-08-21,estimate,142,65,239,95,163
-Brussels,2020-08-22,estimate,46,18,77,29,52
-Brussels,2020-08-23,estimate,21,6,35,12,23
-Brussels,2020-08-24,estimate,158,67,262,100,176
-Brussels,2020-08-25,estimate,152,68,248,108,178
-Brussels,2020-08-26,estimate,154,63,252,97,169
-Brussels,2020-08-27,estimate,156,61,249,109,180
-Brussels,2020-08-28,estimate,147,68,247,98,167
-Brussels,2020-08-29,estimate based on partial data,50,17,82,32,57
-Brussels,2020-08-30,estimate based on partial data,22,9,39,12,24
-Brussels,2020-08-31,estimate based on partial data,169,71,280,105,188
-Brussels,2020-09-01,estimate based on partial data,170,79,279,111,192
-Brussels,2020-09-02,estimate based on partial data,170,71,278,125,206
-Brussels,2020-09-03,estimate based on partial data,179,80,293,127,210
-Brussels,2020-09-04,estimate based on partial data,166,68,271,115,194
-Brussels,2020-09-05,estimate based on partial data,58,24,98,34,63
-Brussels,2020-09-06,estimate based on partial data,26,8,44,14,28
-Brussels,2020-09-07,estimate based on partial data,196,75,320,139,233
-Brussels,2020-09-08,estimate based on partial data,195,74,323,135,231
-Brussels,2020-09-09,estimate based on partial data,196,85,333,130,227
-Brussels,2020-09-10,estimate based on partial data,206,74,350,137,237
-Brussels,2020-09-11,forecast,195,79,346,122,227
-Brussels,2020-09-12,forecast,67,25,123,37,75
-Brussels,2020-09-13,forecast,30,7,56,14,32
-Brussels,2020-09-14,forecast,227,64,428,119,255
-Brussels,2020-09-15,forecast,224,68,468,120,262
-Brussels,2020-09-16,forecast,225,52,476,108,258
-Brussels,2020-09-17,forecast,236,44,543,117,278
-Brussels,2020-09-18,forecast,220,47,547,84,241
-Brussels,2020-09-19,forecast,75,13,194,24,80
-Brussels,2020-09-20,forecast,33,2,96,7,34
-Brussels,2020-09-21,forecast,252,29,780,61,263
-Brussels,2020-09-22,forecast,253,20,760,68,275
-Brussels,2020-09-23,forecast,253,12,876,69,282
-Brussels,2020-09-24,forecast,264,21,969,60,287
-Flanders,2020-07-02,estimate,64,34,100,44,70
-Flanders,2020-07-03,estimate,69,35,107,48,77
-Flanders,2020-07-04,estimate,27,13,43,18,30
-Flanders,2020-07-05,estimate,18,6,28,10,19
-Flanders,2020-07-06,estimate,90,50,142,63,100
-Flanders,2020-07-07,estimate,71,37,110,49,78
-Flanders,2020-07-08,estimate,86,43,132,60,95
-Flanders,2020-07-09,estimate,87,41,128,65,99
-Flanders,2020-07-10,estimate,98,52,150,68,107
-Flanders,2020-07-11,estimate,39,19,62,25,42
-Flanders,2020-07-12,estimate,28,13,44,18,30
-Flanders,2020-07-13,estimate,141,72,214,99,155
-Flanders,2020-07-14,estimate,117,61,178,82,129
-Flanders,2020-07-15,estimate,152,75,227,117,175
-Flanders,2020-07-16,estimate,159,87,241,122,181
-Flanders,2020-07-17,estimate,185,101,277,145,216
-Flanders,2020-07-18,estimate,78,37,117,56,89
-Flanders,2020-07-19,estimate,56,28,87,38,62
-Flanders,2020-07-20,estimate,293,166,445,230,343
-Flanders,2020-07-21,estimate,240,127,357,176,269
-Flanders,2020-07-22,estimate,298,169,460,234,349
-Flanders,2020-07-23,estimate,313,164,462,241,358
-Flanders,2020-07-24,estimate,351,198,531,269,405
-Flanders,2020-07-25,estimate,141,70,206,107,161
-Flanders,2020-07-26,estimate,96,50,146,70,108
-Flanders,2020-07-27,estimate,473,260,731,359,543
-Flanders,2020-07-28,estimate,361,196,548,272,408
-Flanders,2020-07-29,estimate,424,226,638,306,469
-Flanders,2020-07-30,estimate,414,233,627,318,473
-Flanders,2020-07-31,estimate,442,245,688,324,502
-Flanders,2020-08-01,estimate,165,86,244,125,189
-Flanders,2020-08-02,estimate,108,57,166,74,118
-Flanders,2020-08-03,estimate,495,260,721,386,571
-Flanders,2020-08-04,estimate,360,193,541,266,406
-Flanders,2020-08-05,estimate,416,232,619,314,465
-Flanders,2020-08-06,estimate,380,197,557,267,417
-Flanders,2020-08-07,estimate,394,213,589,285,433
-Flanders,2020-08-08,estimate,145,80,222,108,164
-Flanders,2020-08-09,estimate,90,52,144,68,104
-Flanders,2020-08-10,estimate,409,218,606,311,470
-Flanders,2020-08-11,estimate,299,172,465,209,327
-Flanders,2020-08-12,estimate,330,184,499,266,391
-Flanders,2020-08-13,estimate,306,160,451,231,347
-Flanders,2020-08-14,estimate,313,161,453,237,356
-Flanders,2020-08-15,estimate,115,56,169,84,127
-Flanders,2020-08-16,estimate,72,34,111,56,85
-Flanders,2020-08-17,estimate,330,187,493,243,366
-Flanders,2020-08-18,estimate,240,132,367,171,264
-Flanders,2020-08-19,estimate,271,143,406,196,302
-Flanders,2020-08-20,estimate,253,143,379,172,271
-Flanders,2020-08-21,estimate,259,127,377,195,293
-Flanders,2020-08-22,estimate,98,52,148,72,110
-Flanders,2020-08-23,estimate,62,32,96,43,69
-Flanders,2020-08-24,estimate,286,155,425,222,328
-Flanders,2020-08-25,estimate,215,121,323,157,237
-Flanders,2020-08-26,estimate,242,126,358,181,272
-Flanders,2020-08-27,estimate,239,136,365,165,260
-Flanders,2020-08-28,estimate,255,125,380,180,281
-Flanders,2020-08-29,estimate based on partial data,97,55,154,67,106
-Flanders,2020-08-30,estimate based on partial data,65,31,98,46,73
-Flanders,2020-08-31,estimate based on partial data,311,173,478,220,342
-Flanders,2020-09-01,estimate based on partial data,242,127,366,181,275
-Flanders,2020-09-02,estimate based on partial data,289,148,434,202,313
-Flanders,2020-09-03,estimate based on partial data,284,149,422,210,319
-Flanders,2020-09-04,estimate based on partial data,324,164,483,240,366
-Flanders,2020-09-05,estimate based on partial data,131,63,196,94,148
-Flanders,2020-09-06,estimate based on partial data,90,48,139,61,99
-Flanders,2020-09-07,estimate based on partial data,440,234,677,316,492
-Flanders,2020-09-08,estimate based on partial data,362,191,544,277,420
-Flanders,2020-09-09,estimate based on partial data,440,233,686,319,502
-Flanders,2020-09-10,estimate based on partial data,462,239,703,352,541
-Flanders,2020-09-11,forecast,532,274,883,342,582
-Flanders,2020-09-12,forecast,216,85,361,148,255
-Flanders,2020-09-13,forecast,150,53,273,94,175
-Flanders,2020-09-14,forecast,765,281,1434,410,832
-Flanders,2020-09-15,forecast,612,171,1223,348,693
-Flanders,2020-09-16,forecast,769,217,1691,378,849
-Flanders,2020-09-17,forecast,806,218,1937,343,867
-Flanders,2020-09-18,forecast,914,166,2368,345,996
-Flanders,2020-09-19,forecast,377,70,1080,119,403
-Flanders,2020-09-20,forecast,271,40,829,81,291
-Flanders,2020-09-21,forecast,1376,160,4578,361,1479
-Flanders,2020-09-22,forecast,1082,75,4130,254,1155
-Flanders,2020-09-23,forecast,1382,132,5765,280,1457
-Flanders,2020-09-24,forecast,1439,76,6277,274,1531
-Unknown,2020-07-02,estimate,2,0,6,0,2
-Unknown,2020-07-03,estimate,3,0,7,0,3
-Unknown,2020-07-04,estimate,2,0,5,0,2
-Unknown,2020-07-05,estimate,0,0,2,0,0
-Unknown,2020-07-06,estimate,2,0,6,0,2
-Unknown,2020-07-07,estimate,3,0,8,0,3
-Unknown,2020-07-08,estimate,4,0,9,1,4
-Unknown,2020-07-09,estimate,2,0,6,0,2
-Unknown,2020-07-10,estimate,3,0,8,0,3
-Unknown,2020-07-11,estimate,2,0,6,0,2
-Unknown,2020-07-12,estimate,1,0,3,0,1
-Unknown,2020-07-13,estimate,3,0,7,0,3
-Unknown,2020-07-14,estimate,4,0,10,0,4
-Unknown,2020-07-15,estimate,5,0,12,1,5
-Unknown,2020-07-16,estimate,4,0,9,1,4
-Unknown,2020-07-17,estimate,5,0,12,1,5
-Unknown,2020-07-18,estimate,3,0,9,0,3
-Unknown,2020-07-19,estimate,1,0,4,0,1
-Unknown,2020-07-20,estimate,5,0,12,1,5
-Unknown,2020-07-21,estimate,8,0,18,1,8
-Unknown,2020-07-22,estimate,10,0,23,3,11
-Unknown,2020-07-23,estimate,7,0,16,1,7
-Unknown,2020-07-24,estimate,10,0,22,3,11
-Unknown,2020-07-25,estimate,7,0,17,1,7
-Unknown,2020-07-26,estimate,3,0,7,0,3
-Unknown,2020-07-27,estimate,10,0,22,2,10
-Unknown,2020-07-28,estimate,16,1,34,3,16
-Unknown,2020-07-29,estimate,18,0,39,5,20
-Unknown,2020-07-30,estimate,13,1,28,2,13
-Unknown,2020-07-31,estimate,17,1,37,6,19
-Unknown,2020-08-01,estimate,11,0,25,3,12
-Unknown,2020-08-02,estimate,4,0,10,0,4
-Unknown,2020-08-03,estimate,15,0,32,4,16
-Unknown,2020-08-04,estimate,21,2,45,6,23
-Unknown,2020-08-05,estimate,24,2,52,8,27
-Unknown,2020-08-06,estimate,16,0,34,3,16
-Unknown,2020-08-07,estimate,20,0,43,7,22
-Unknown,2020-08-08,estimate,13,1,29,4,14
-Unknown,2020-08-09,estimate,5,0,12,1,5
-Unknown,2020-08-10,estimate,15,0,33,7,19
-Unknown,2020-08-11,estimate,21,2,46,9,25
-Unknown,2020-08-12,estimate,23,1,53,5,24
-Unknown,2020-08-13,estimate,16,0,35,4,17
-Unknown,2020-08-14,estimate,19,2,42,5,20
-Unknown,2020-08-15,estimate,12,0,27,3,13
-Unknown,2020-08-16,estimate,4,0,11,0,4
-Unknown,2020-08-17,estimate,15,1,32,3,15
-Unknown,2020-08-18,estimate,19,1,43,5,20
-Unknown,2020-08-19,estimate,22,2,48,7,24
-Unknown,2020-08-20,estimate,14,2,32,3,15
-Unknown,2020-08-21,estimate,18,0,40,6,20
-Unknown,2020-08-22,estimate,11,1,25,3,12
-Unknown,2020-08-23,estimate,4,0,10,1,4
-Unknown,2020-08-24,estimate,13,0,29,3,14
-Unknown,2020-08-25,estimate,19,2,42,5,20
-Unknown,2020-08-26,estimate,20,1,44,6,22
-Unknown,2020-08-27,estimate,13,2,30,3,14
-Unknown,2020-08-28,estimate,16,2,37,4,17
-Unknown,2020-08-29,estimate based on partial data,10,0,23,4,12
-Unknown,2020-08-30,estimate based on partial data,4,0,9,1,4
-Unknown,2020-08-31,estimate based on partial data,12,1,28,4,14
-Unknown,2020-09-01,estimate based on partial data,17,2,37,7,20
-Unknown,2020-09-02,estimate based on partial data,20,1,43,8,23
-Unknown,2020-09-03,estimate based on partial data,13,0,28,4,14
-Unknown,2020-09-04,estimate based on partial data,16,1,35,4,17
-Unknown,2020-09-05,estimate based on partial data,11,0,24,2,11
-Unknown,2020-09-06,estimate based on partial data,4,0,9,1,4
-Unknown,2020-09-07,estimate based on partial data,12,0,28,4,14
-Unknown,2020-09-08,estimate based on partial data,18,1,42,4,19
-Unknown,2020-09-09,estimate based on partial data,21,1,47,4,22
-Unknown,2020-09-10,estimate based on partial data,14,0,30,3,14
-Unknown,2020-09-11,forecast,18,0,44,5,20
-Unknown,2020-09-12,forecast,11,0,31,2,12
-Unknown,2020-09-13,forecast,4,0,13,0,4
-Unknown,2020-09-14,forecast,14,0,44,2,15
-Unknown,2020-09-15,forecast,21,0,70,3,22
-Unknown,2020-09-16,forecast,24,0,84,2,24
-Unknown,2020-09-17,forecast,16,0,61,2,16
-Unknown,2020-09-18,forecast,21,0,97,1,21
-Unknown,2020-09-19,forecast,13,0,65,1,13
-Unknown,2020-09-20,forecast,5,0,30,0,5
-Unknown,2020-09-21,forecast,17,0,105,1,17
-Unknown,2020-09-22,forecast,23,0,159,1,23
-Unknown,2020-09-23,forecast,28,0,227,1,28
-Unknown,2020-09-24,forecast,18,0,154,0,18
-Wallonia,2020-07-02,estimate,22,7,38,14,26
-Wallonia,2020-07-03,estimate,24,8,40,12,25
-Wallonia,2020-07-04,estimate,13,4,22,7,14
-Wallonia,2020-07-05,estimate,5,0,9,2,5
-Wallonia,2020-07-06,estimate,28,11,47,17,31
-Wallonia,2020-07-07,estimate,28,10,48,15,30
-Wallonia,2020-07-08,estimate,28,9,46,16,31
-Wallonia,2020-07-09,estimate,28,10,46,15,30
-Wallonia,2020-07-10,estimate,30,11,51,17,33
-Wallonia,2020-07-11,estimate,16,5,28,9,18
-Wallonia,2020-07-12,estimate,7,2,13,3,7
-Wallonia,2020-07-13,estimate,38,15,64,24,43
-Wallonia,2020-07-14,estimate,41,15,66,25,45
-Wallonia,2020-07-15,estimate,42,16,70,27,48
-Wallonia,2020-07-16,estimate,43,18,74,26,48
-Wallonia,2020-07-17,estimate,50,17,82,30,56
-Wallonia,2020-07-18,estimate,28,10,48,17,32
-Wallonia,2020-07-19,estimate,11,4,20,7,13
-Wallonia,2020-07-20,estimate,72,29,119,49,85
-Wallonia,2020-07-21,estimate,75,29,123,48,85
-Wallonia,2020-07-22,estimate,79,35,132,55,93
-Wallonia,2020-07-23,estimate,83,36,142,50,92
-Wallonia,2020-07-24,estimate,95,39,156,66,113
-Wallonia,2020-07-25,estimate,53,22,91,29,57
-Wallonia,2020-07-26,estimate,21,7,36,13,24
-Wallonia,2020-07-27,estimate,131,60,214,86,148
-Wallonia,2020-07-28,estimate,134,58,221,85,149
-Wallonia,2020-07-29,estimate,136,57,220,94,156
-Wallonia,2020-07-30,estimate,137,61,230,95,162
-Wallonia,2020-07-31,estimate,150,67,247,105,174
-Wallonia,2020-08-01,estimate,82,30,130,52,92
-Wallonia,2020-08-02,estimate,31,11,53,19,35
-Wallonia,2020-08-03,estimate,180,75,290,120,206
-Wallonia,2020-08-04,estimate,177,74,285,131,216
-Wallonia,2020-08-05,estimate,170,71,276,119,201
-Wallonia,2020-08-06,estimate,165,63,260,107,187
-Wallonia,2020-08-07,estimate,167,68,268,123,199
-Wallonia,2020-08-08,estimate,86,36,143,60,103
-Wallonia,2020-08-09,estimate,32,12,53,19,36
-Wallonia,2020-08-10,estimate,176,71,284,111,196
-Wallonia,2020-08-11,estimate,162,72,271,102,181
-Wallonia,2020-08-12,estimate,156,61,252,106,181
-Wallonia,2020-08-13,estimate,147,64,239,97,167
-Wallonia,2020-08-14,estimate,150,62,244,104,172
-Wallonia,2020-08-15,estimate,76,27,122,51,86
-Wallonia,2020-08-16,estimate,27,10,47,18,32
-Wallonia,2020-08-17,estimate,152,72,255,93,168
-Wallonia,2020-08-18,estimate,141,48,221,102,166
-Wallonia,2020-08-19,estimate,132,63,225,86,149
-Wallonia,2020-08-20,estimate,126,52,205,94,152
-Wallonia,2020-08-21,estimate,128,55,207,90,149
-Wallonia,2020-08-22,estimate,65,26,111,39,72
-Wallonia,2020-08-23,estimate,24,9,41,14,27
-Wallonia,2020-08-24,estimate,134,56,220,105,168
-Wallonia,2020-08-25,estimate,130,59,217,90,151
-Wallonia,2020-08-26,estimate,123,56,206,78,137
-Wallonia,2020-08-27,estimate,121,52,201,79,139
-Wallonia,2020-08-28,estimate,125,49,204,87,147
-Wallonia,2020-08-29,estimate based on partial data,67,28,113,44,77
-Wallonia,2020-08-30,estimate based on partial data,26,10,44,15,28
-Wallonia,2020-08-31,estimate based on partial data,148,63,241,92,166
-Wallonia,2020-09-01,estimate based on partial data,145,59,236,94,165
-Wallonia,2020-09-02,estimate based on partial data,144,61,238,88,157
-Wallonia,2020-09-03,estimate based on partial data,145,57,236,93,163
-Wallonia,2020-09-04,estimate based on partial data,158,69,262,97,172
-Wallonia,2020-09-05,estimate based on partial data,86,34,140,58,99
-Wallonia,2020-09-06,estimate based on partial data,34,13,58,20,38
-Wallonia,2020-09-07,estimate based on partial data,202,83,333,129,225
-Wallonia,2020-09-08,estimate based on partial data,207,85,336,131,230
-Wallonia,2020-09-09,estimate based on partial data,208,90,351,136,236
-Wallonia,2020-09-10,estimate based on partial data,219,86,368,155,266
-Wallonia,2020-09-11,forecast,240,81,411,140,271
-Wallonia,2020-09-12,forecast,132,37,248,81,155
-Wallonia,2020-09-13,forecast,52,11,100,27,58
-Wallonia,2020-09-14,forecast,311,102,645,159,354
-Wallonia,2020-09-15,forecast,319,89,694,148,357
-Wallonia,2020-09-16,forecast,332,78,755,146,370
-Wallonia,2020-09-17,forecast,344,63,851,122,376
-Wallonia,2020-09-18,forecast,369,53,990,136,407
-Wallonia,2020-09-19,forecast,206,19,595,60,223
-Wallonia,2020-09-20,forecast,85,9,272,25,93
-Wallonia,2020-09-21,forecast,490,41,1661,138,542
-Wallonia,2020-09-22,forecast,512,51,1907,133,566
-Wallonia,2020-09-23,forecast,520,31,2116,105,555
-Wallonia,2020-09-24,forecast,546,22,2316,89,578
+region,date,type,median,mean,sd,lower_20,upper_20,lower_50,upper_50,lower_90,upper_90
+Brussels,2020-07-25,estimate,15,16,6,13,15,8,16,6,25
+Brussels,2020-07-26,estimate,8,9,4,6,7,3,8,2,14
+Brussels,2020-07-27,estimate,57,59,20,40,49,39,63,27,88
+Brussels,2020-07-28,estimate,67,70,23,51,61,44,73,31,103
+Brussels,2020-07-29,estimate,75,77,25,53,65,54,85,33,113
+Brussels,2020-07-30,estimate,75,77,25,60,71,55,86,37,116
+Brussels,2020-07-31,estimate,75,78,25,65,76,53,84,35,112
+Brussels,2020-08-01,estimate,30,32,11,21,26,21,34,14,48
+Brussels,2020-08-02,estimate,16,17,7,13,15,9,17,6,26
+Brussels,2020-08-03,estimate,107,111,35,93,108,81,125,51,163
+Brussels,2020-08-04,estimate,123,127,39,109,126,87,136,65,189
+Brussels,2020-08-05,estimate,132,137,43,119,138,96,149,63,198
+Brussels,2020-08-06,estimate,127,131,42,98,117,89,141,58,191
+Brussels,2020-08-07,estimate,120,125,39,102,120,88,137,56,180
+Brussels,2020-08-08,estimate,47,49,16,37,44,32,52,21,72
+Brussels,2020-08-09,estimate,23,24,9,16,20,15,26,9,37
+Brussels,2020-08-10,estimate,149,154,48,123,145,105,167,78,228
+Brussels,2020-08-11,estimate,162,166,51,132,155,125,189,83,243
+Brussels,2020-08-12,estimate,165,172,53,150,173,117,184,83,252
+Brussels,2020-08-13,estimate,151,156,48,123,146,113,174,76,226
+Brussels,2020-08-14,estimate,139,143,44,115,135,102,157,72,210
+Brussels,2020-08-15,estimate,51,53,17,45,52,34,55,24,77
+Brussels,2020-08-16,estimate,25,25,9,17,21,16,27,10,38
+Brussels,2020-08-17,estimate,152,158,49,127,149,111,173,80,231
+Brussels,2020-08-18,estimate,161,167,51,129,152,115,179,82,241
+Brussels,2020-08-19,estimate,162,167,51,132,156,121,186,83,242
+Brussels,2020-08-20,estimate,145,149,45,122,143,111,167,72,214
+Brussels,2020-08-21,estimate,130,134,42,106,125,93,145,64,196
+Brussels,2020-08-22,estimate,49,50,16,38,45,35,55,24,75
+Brussels,2020-08-23,estimate,23,24,9,16,20,14,25,9,36
+Brussels,2020-08-24,estimate,144,149,46,114,135,109,166,74,221
+Brussels,2020-08-25,estimate,154,159,47,120,142,116,176,82,231
+Brussels,2020-08-26,estimate,157,163,51,130,153,114,177,79,239
+Brussels,2020-08-27,estimate,144,149,47,110,132,101,161,73,221
+Brussels,2020-08-28,estimate,133,138,43,104,124,94,149,64,200
+Brussels,2020-08-29,estimate,51,53,18,38,46,32,55,26,80
+Brussels,2020-08-30,estimate,25,26,9,18,22,18,29,11,40
+Brussels,2020-08-31,estimate,160,166,51,132,155,118,181,84,244
+Brussels,2020-09-01,estimate,177,184,57,146,172,134,203,96,275
+Brussels,2020-09-02,estimate,186,194,60,161,187,134,207,100,292
+Brussels,2020-09-03,estimate,176,183,57,153,177,130,199,99,276
+Brussels,2020-09-04,estimate,168,174,55,133,158,121,189,90,257
+Brussels,2020-09-05,estimate,65,68,23,52,62,43,71,30,100
+Brussels,2020-09-06,estimate,33,35,12,26,31,22,37,17,56
+Brussels,2020-09-07,estimate,222,228,70,179,212,158,247,115,334
+Brussels,2020-09-08,estimate,245,255,77,199,233,190,285,125,370
+Brussels,2020-09-09,estimate,264,274,85,224,262,191,296,146,413
+Brussels,2020-09-10,estimate,254,262,79,198,236,189,289,137,384
+Brussels,2020-09-11,estimate,247,253,77,216,253,175,274,125,367
+Brussels,2020-09-12,estimate,95,99,32,75,89,67,107,46,146
+Brussels,2020-09-13,estimate,49,51,17,41,48,32,53,23,75
+Brussels,2020-09-14,estimate,320,331,99,264,310,254,378,173,485
+Brussels,2020-09-15,estimate,359,371,112,299,350,276,413,198,545
+Brussels,2020-09-16,estimate,385,398,121,345,401,274,426,204,580
+Brussels,2020-09-17,estimate,364,374,110,338,389,274,415,198,544
+Brussels,2020-09-18,estimate,348,358,108,300,349,263,400,184,523
+Brussels,2020-09-19,estimate,135,139,45,105,126,98,154,67,206
+Brussels,2020-09-20,estimate,68,71,23,51,61,48,76,35,107
+Brussels,2020-09-21,estimate,442,455,136,404,468,338,510,224,648
+Brussels,2020-09-22,estimate,490,506,155,447,518,354,546,239,723
+Brussels,2020-09-23,estimate based on partial data,520,538,165,436,512,388,591,264,778
+Brussels,2020-09-24,estimate based on partial data,495,509,153,465,539,346,544,258,740
+Brussels,2020-09-25,estimate based on partial data,464,478,141,418,481,343,521,243,688
+Brussels,2020-09-26,estimate based on partial data,179,186,56,151,177,129,200,91,271
+Brussels,2020-09-27,estimate based on partial data,90,94,31,77,90,66,103,46,141
+Brussels,2020-09-28,estimate based on partial data,584,608,186,519,596,460,684,320,907
+Brussels,2020-09-29,estimate based on partial data,655,673,201,588,685,486,740,350,977
+Brussels,2020-09-30,estimate based on partial data,684,707,213,570,670,500,769,360,1028
+Brussels,2020-10-01,estimate based on partial data,641,669,212,545,638,452,717,304,961
+Brussels,2020-10-02,estimate based on partial data,615,642,201,493,584,450,698,326,958
+Brussels,2020-10-03,estimate based on partial data,234,247,83,198,232,166,266,112,363
+Brussels,2020-10-04,forecast,121,127,47,97,117,84,139,54,196
+Brussels,2020-10-05,forecast,777,822,304,593,719,544,899,364,1248
+Brussels,2020-10-06,forecast,862,928,381,652,803,519,932,359,1433
+Brussels,2020-10-07,forecast,907,990,445,637,804,556,1018,361,1585
+Brussels,2020-10-08,forecast,856,957,484,668,840,496,954,303,1549
+Brussels,2020-10-09,forecast,809,931,558,599,773,470,942,296,1571
+Brussels,2020-10-10,forecast,319,374,240,195,264,159,351,90,632
+Brussels,2020-10-11,forecast,158,194,157,99,134,81,182,44,349
+Brussels,2020-10-12,forecast,1024,1308,1208,584,825,447,1139,236,2329
+Brussels,2020-10-13,forecast,1149,1540,1883,531,822,511,1319,256,2842
+Brussels,2020-10-14,forecast,1210,1695,2110,610,931,421,1320,219,3175
+Brussels,2020-10-15,forecast,1127,1700,2638,616,911,435,1301,155,3123
+Brussels,2020-10-16,forecast,1076,1673,2935,594,894,291,1152,147,3139
+Brussels,2020-10-17,forecast,426,718,1755,204,323,106,455,51,1347
+Flanders,2020-07-25,estimate,145,149,39,130,147,115,164,86,208
+Flanders,2020-07-26,estimate,94,97,26,79,91,72,105,53,136
+Flanders,2020-07-27,estimate,477,487,124,435,494,387,543,283,680
+Flanders,2020-07-28,estimate,367,376,96,324,367,291,415,211,518
+Flanders,2020-07-29,estimate,418,425,109,352,404,337,479,240,591
+Flanders,2020-07-30,estimate,417,428,108,361,410,341,476,252,599
+Flanders,2020-07-31,estimate,412,421,106,335,386,332,468,239,583
+Flanders,2020-08-01,estimate,171,176,45,140,161,137,194,104,250
+Flanders,2020-08-02,estimate,106,108,29,89,102,85,121,56,149
+Flanders,2020-08-03,estimate,502,517,133,444,507,396,565,302,730
+Flanders,2020-08-04,estimate,374,383,98,327,374,290,415,219,532
+Flanders,2020-08-05,estimate,404,414,105,344,394,315,450,251,583
+Flanders,2020-08-06,estimate,390,401,102,338,384,311,442,227,550
+Flanders,2020-08-07,estimate,377,385,97,309,357,295,422,224,527
+Flanders,2020-08-08,estimate,152,155,40,135,154,120,171,88,219
+Flanders,2020-08-09,estimate,91,93,25,72,84,69,101,52,131
+Flanders,2020-08-10,estimate,422,433,110,369,421,331,472,257,609
+Flanders,2020-08-11,estimate,308,315,81,263,300,248,349,184,442
+Flanders,2020-08-12,estimate,328,334,84,285,326,262,369,203,466
+Flanders,2020-08-13,estimate,315,322,84,285,324,245,351,183,448
+Flanders,2020-08-14,estimate,299,307,77,260,295,242,340,180,422
+Flanders,2020-08-15,estimate,120,123,32,108,122,96,137,69,171
+Flanders,2020-08-16,estimate,71,73,20,59,68,55,80,42,106
+Flanders,2020-08-17,estimate,331,338,85,295,334,260,369,200,467
+Flanders,2020-08-18,estimate,245,251,64,219,248,195,277,144,348
+Flanders,2020-08-19,estimate,260,265,68,236,268,208,294,151,368
+Flanders,2020-08-20,estimate,252,259,67,220,251,207,292,146,361
+Flanders,2020-08-21,estimate,242,247,63,206,237,182,264,143,344
+Flanders,2020-08-22,estimate,99,101,27,81,93,73,107,56,140
+Flanders,2020-08-23,estimate,60,61,17,48,56,44,66,31,86
+Flanders,2020-08-24,estimate,289,295,76,262,297,224,321,170,415
+Flanders,2020-08-25,estimate,216,221,56,188,215,170,241,139,317
+Flanders,2020-08-26,estimate,238,243,61,216,244,192,270,135,331
+Flanders,2020-08-27,estimate,239,245,63,216,245,184,264,149,348
+Flanders,2020-08-28,estimate,238,243,62,206,235,181,262,142,340
+Flanders,2020-08-29,estimate,100,102,27,81,94,75,110,58,143
+Flanders,2020-08-30,estimate,64,66,18,56,64,49,72,37,95
+Flanders,2020-08-31,estimate,322,329,84,291,329,257,365,196,465
+Flanders,2020-09-01,estimate,254,259,66,222,254,201,286,147,358
+Flanders,2020-09-02,estimate,294,300,77,262,299,225,324,175,423
+Flanders,2020-09-03,estimate,306,315,81,271,308,241,344,180,441
+Flanders,2020-09-04,estimate,320,328,84,281,319,258,362,190,458
+Flanders,2020-09-05,estimate,144,146,38,126,144,109,159,80,203
+Flanders,2020-09-06,estimate,93,96,26,80,92,66,100,53,136
+Flanders,2020-09-07,estimate,488,499,128,433,492,385,549,289,697
+Flanders,2020-09-08,estimate,393,403,104,353,401,315,451,239,564
+Flanders,2020-09-09,estimate,470,478,122,420,476,380,534,268,660
+Flanders,2020-09-10,estimate,494,504,127,445,507,411,580,305,707
+Flanders,2020-09-11,estimate,519,531,133,447,510,414,589,302,724
+Flanders,2020-09-12,estimate,228,234,60,194,222,187,263,132,325
+Flanders,2020-09-13,estimate,151,154,40,120,140,115,167,90,216
+Flanders,2020-09-14,estimate,766,782,194,693,786,599,853,496,1107
+Flanders,2020-09-15,estimate,605,620,159,549,627,462,667,370,872
+Flanders,2020-09-16,estimate,705,718,180,640,726,576,806,434,1006
+Flanders,2020-09-17,estimate,724,744,189,647,735,574,814,445,1047
+Flanders,2020-09-18,estimate,736,751,187,648,738,603,845,465,1055
+Flanders,2020-09-19,estimate,318,326,83,277,316,252,358,186,452
+Flanders,2020-09-20,estimate,202,207,54,178,203,159,229,115,287
+Flanders,2020-09-21,estimate,1001,1023,260,891,1012,777,1106,617,1440
+Flanders,2020-09-22,estimate,773,789,197,680,773,626,879,450,1089
+Flanders,2020-09-23,estimate based on partial data,870,891,224,778,881,676,964,539,1259
+Flanders,2020-09-24,estimate based on partial data,879,906,230,771,876,691,982,551,1285
+Flanders,2020-09-25,estimate based on partial data,883,904,228,747,855,703,988,554,1286
+Flanders,2020-09-26,estimate based on partial data,373,381,97,310,356,294,417,221,528
+Flanders,2020-09-27,estimate based on partial data,234,241,62,194,223,182,261,137,337
+Flanders,2020-09-28,estimate based on partial data,1165,1197,296,1118,1254,907,1281,714,1659
+Flanders,2020-09-29,estimate based on partial data,909,932,236,808,914,750,1051,529,1281
+Flanders,2020-09-30,estimate based on partial data,1019,1045,270,922,1049,806,1159,604,1462
+Flanders,2020-10-01,estimate based on partial data,1055,1079,273,923,1052,838,1188,622,1485
+Flanders,2020-10-02,estimate based on partial data,1072,1103,294,988,1124,837,1211,629,1566
+Flanders,2020-10-03,estimate based on partial data,462,478,134,409,468,368,533,263,684
+Flanders,2020-10-04,forecast,297,309,97,262,306,215,334,157,457
+Flanders,2020-10-05,forecast,1517,1592,535,1315,1536,1142,1755,744,2352
+Flanders,2020-10-06,forecast,1188,1268,473,967,1148,851,1357,545,1898
+Flanders,2020-10-07,forecast,1373,1514,675,1113,1349,904,1575,585,2379
+Flanders,2020-10-08,forecast,1433,1605,829,1089,1366,925,1662,584,2611
+Flanders,2020-10-09,forecast,1468,1718,1051,962,1244,943,1760,479,2930
+Flanders,2020-10-10,forecast,642,778,578,446,583,324,704,192,1340
+Flanders,2020-10-11,forecast,424,539,484,224,322,210,478,116,972
+Flanders,2020-10-12,forecast,2100,2902,3335,1160,1661,896,2317,469,5345
+Flanders,2020-10-13,forecast,1676,2451,3395,885,1288,652,1850,349,4593
+Flanders,2020-10-14,forecast,1940,3022,4710,924,1424,727,2151,335,5658
+Flanders,2020-10-15,forecast,2023,3436,7486,1021,1548,567,2152,348,6707
+Flanders,2020-10-16,forecast,2114,3893,9923,946,1520,478,2188,284,7197
+Flanders,2020-10-17,forecast,919,1887,5831,403,659,241,1011,104,3427
+Unknown,2020-07-25,estimate,7,8,5,2,4,2,7,0,14
+Unknown,2020-07-26,estimate,3,4,3,0,1,0,3,0,7
+Unknown,2020-07-27,estimate,12,13,8,5,8,3,12,1,23
+Unknown,2020-07-28,estimate,16,18,11,7,11,7,18,2,32
+Unknown,2020-07-29,estimate,21,23,13,17,22,8,23,3,41
+Unknown,2020-07-30,estimate,14,16,9,9,12,5,15,2,29
+Unknown,2020-07-31,estimate,16,18,10,8,12,8,19,3,33
+Unknown,2020-08-01,estimate,11,12,7,4,7,4,12,1,21
+Unknown,2020-08-02,estimate,5,5,4,2,3,1,5,0,10
+Unknown,2020-08-03,estimate,16,19,11,8,12,5,17,3,34
+Unknown,2020-08-04,estimate,22,25,14,13,18,10,25,4,44
+Unknown,2020-08-05,estimate,27,30,16,17,23,12,30,5,52
+Unknown,2020-08-06,estimate,17,19,11,9,13,8,20,2,34
+Unknown,2020-08-07,estimate,19,21,13,13,17,8,21,3,38
+Unknown,2020-08-08,estimate,12,14,8,5,8,4,13,1,24
+Unknown,2020-08-09,estimate,5,6,4,2,3,1,5,0,11
+Unknown,2020-08-10,estimate,18,20,11,10,14,9,21,3,34
+Unknown,2020-08-11,estimate,23,25,14,14,19,10,25,5,44
+Unknown,2020-08-12,estimate,27,29,16,17,23,11,29,5,51
+Unknown,2020-08-13,estimate,17,19,11,9,13,6,18,2,33
+Unknown,2020-08-14,estimate,18,20,11,10,14,7,20,2,35
+Unknown,2020-08-15,estimate,11,13,8,4,7,4,12,1,23
+Unknown,2020-08-16,estimate,5,5,4,2,3,1,5,0,10
+Unknown,2020-08-17,estimate,16,17,10,7,11,6,17,3,31
+Unknown,2020-08-18,estimate,20,22,12,9,14,9,22,3,39
+Unknown,2020-08-19,estimate,24,26,14,12,18,10,26,4,46
+Unknown,2020-08-20,estimate,15,16,10,10,13,6,16,2,29
+Unknown,2020-08-21,estimate,16,17,10,7,11,6,17,2,30
+Unknown,2020-08-22,estimate,10,11,7,5,7,3,10,1,20
+Unknown,2020-08-23,estimate,4,5,3,1,2,2,5,0,9
+Unknown,2020-08-24,estimate,14,16,9,11,14,6,16,2,28
+Unknown,2020-08-25,estimate,18,20,12,10,14,7,19,4,36
+Unknown,2020-08-26,estimate,22,24,14,14,19,9,24,3,42
+Unknown,2020-08-27,estimate,14,15,9,8,11,5,15,2,28
+Unknown,2020-08-28,estimate,15,17,10,6,10,5,16,2,30
+Unknown,2020-08-29,estimate,10,11,6,6,8,4,11,1,20
+Unknown,2020-08-30,estimate,4,5,3,1,2,1,4,0,9
+Unknown,2020-08-31,estimate,14,16,9,10,13,6,16,2,29
+Unknown,2020-09-01,estimate,19,22,12,14,18,10,23,3,38
+Unknown,2020-09-02,estimate,24,26,15,17,22,9,25,3,46
+Unknown,2020-09-03,estimate,16,18,10,8,12,6,17,2,31
+Unknown,2020-09-04,estimate,18,20,11,11,15,8,20,2,35
+Unknown,2020-09-05,estimate,12,13,8,5,8,6,14,2,24
+Unknown,2020-09-06,estimate,5,6,4,2,3,2,6,0,11
+Unknown,2020-09-07,estimate,19,21,12,8,13,8,21,4,37
+Unknown,2020-09-08,estimate,26,29,16,15,21,12,29,4,49
+Unknown,2020-09-09,estimate,32,35,20,18,26,13,35,5,61
+Unknown,2020-09-10,estimate,21,24,13,12,17,8,23,4,42
+Unknown,2020-09-11,estimate,25,27,15,14,20,11,28,4,48
+Unknown,2020-09-12,estimate,16,18,10,7,11,5,17,2,32
+Unknown,2020-09-13,estimate,7,8,5,2,4,2,8,0,15
+Unknown,2020-09-14,estimate,27,30,16,13,20,10,29,4,52
+Unknown,2020-09-15,estimate,35,39,21,24,32,14,38,7,68
+Unknown,2020-09-16,estimate,45,51,28,25,36,19,50,9,89
+Unknown,2020-09-17,estimate,30,33,18,17,24,15,35,5,59
+Unknown,2020-09-18,estimate,34,38,21,19,27,15,38,7,66
+Unknown,2020-09-19,estimate,23,25,14,14,19,11,26,4,44
+Unknown,2020-09-20,estimate,10,12,7,7,9,3,11,1,21
+Unknown,2020-09-21,estimate,36,40,22,21,30,16,41,5,69
+Unknown,2020-09-22,estimate,48,54,30,29,40,23,55,10,97
+Unknown,2020-09-23,estimate based on partial data,61,68,36,33,48,25,66,12,117
+Unknown,2020-09-24,estimate based on partial data,40,45,25,21,31,17,44,10,81
+Unknown,2020-09-25,estimate based on partial data,46,51,28,28,39,21,52,11,91
+Unknown,2020-09-26,estimate based on partial data,30,34,19,20,27,11,32,7,61
+Unknown,2020-09-27,estimate based on partial data,14,15,9,10,13,5,15,2,28
+Unknown,2020-09-28,estimate based on partial data,49,54,29,30,42,22,55,10,94
+Unknown,2020-09-29,estimate based on partial data,66,73,40,44,60,30,74,16,129
+Unknown,2020-09-30,estimate based on partial data,85,94,49,50,70,45,100,18,162
+Unknown,2020-10-01,estimate based on partial data,58,64,35,34,48,23,63,12,112
+Unknown,2020-10-02,estimate based on partial data,66,74,43,44,60,33,79,10,129
+Unknown,2020-10-03,estimate based on partial data,46,52,31,28,39,20,51,6,92
+Unknown,2020-10-04,forecast,21,24,16,11,16,6,22,3,45
+Unknown,2020-10-05,forecast,77,91,63,49,69,32,89,12,167
+Unknown,2020-10-06,forecast,104,128,98,43,73,34,114,15,243
+Unknown,2020-10-07,forecast,131,176,195,64,100,41,144,15,337
+Unknown,2020-10-08,forecast,91,133,238,46,71,24,97,11,248
+Unknown,2020-10-09,forecast,109,170,412,48,79,31,119,8,313
+Unknown,2020-10-10,forecast,72,139,636,24,45,15,76,3,238
+Unknown,2020-10-11,forecast,34,75,420,15,25,4,35,2,127
+Unknown,2020-10-12,forecast,120,342,2666,39,76,15,122,4,479
+Unknown,2020-10-13,forecast,172,637,8215,48,98,25,179,6,764
+Unknown,2020-10-14,forecast,222,1528,33115,53,122,24,228,7,1087
+Unknown,2020-10-15,forecast,150,1548,37202,34,78,14,155,2,808
+Unknown,2020-10-16,forecast,175,3514,103948,28,83,12,178,3,1001
+Unknown,2020-10-17,forecast,120,4734,149514,23,60,4,121,1,813
+Wallonia,2020-07-25,estimate,46,48,17,36,43,32,52,21,72
+Wallonia,2020-07-26,estimate,22,23,9,20,23,15,25,8,35
+Wallonia,2020-07-27,estimate,126,130,40,96,115,92,143,66,192
+Wallonia,2020-07-28,estimate,138,142,44,118,138,99,155,73,214
+Wallonia,2020-07-29,estimate,148,153,48,122,143,103,163,75,227
+Wallonia,2020-07-30,estimate,142,147,46,123,144,103,161,76,220
+Wallonia,2020-07-31,estimate,151,157,49,120,142,110,171,76,228
+Wallonia,2020-08-01,estimate,72,75,24,58,69,53,83,33,110
+Wallonia,2020-08-02,estimate,33,34,12,26,31,21,36,13,51
+Wallonia,2020-08-03,estimate,178,183,57,146,172,125,198,86,267
+Wallonia,2020-08-04,estimate,183,189,59,159,187,134,208,88,274
+Wallonia,2020-08-05,estimate,191,197,62,155,184,141,218,96,289
+Wallonia,2020-08-06,estimate,171,178,55,144,169,123,192,88,264
+Wallonia,2020-08-07,estimate,176,183,58,152,177,132,202,89,271
+Wallonia,2020-08-08,estimate,81,84,27,60,73,60,94,39,124
+Wallonia,2020-08-09,estimate,34,35,13,29,34,21,37,14,53
+Wallonia,2020-08-10,estimate,180,186,57,162,188,128,201,98,280
+Wallonia,2020-08-11,estimate,178,184,56,142,168,134,203,97,274
+Wallonia,2020-08-12,estimate,178,183,57,140,166,137,207,91,273
+Wallonia,2020-08-13,estimate,155,160,49,137,159,109,170,80,235
+Wallonia,2020-08-14,estimate,155,160,51,119,143,112,175,74,236
+Wallonia,2020-08-15,estimate,69,71,23,49,60,49,78,32,105
+Wallonia,2020-08-16,estimate,29,30,11,20,25,21,34,12,45
+Wallonia,2020-08-17,estimate,146,151,47,123,145,110,169,74,220
+Wallonia,2020-08-18,estimate,144,149,47,125,147,99,159,75,223
+Wallonia,2020-08-19,estimate,141,146,46,114,135,103,160,67,213
+Wallonia,2020-08-20,estimate,126,129,40,101,119,96,145,62,187
+Wallonia,2020-08-21,estimate,124,129,40,92,111,88,139,67,191
+Wallonia,2020-08-22,estimate,56,58,19,42,51,37,61,28,88
+Wallonia,2020-08-23,estimate,24,25,9,16,20,15,26,10,38
+Wallonia,2020-08-24,estimate,126,130,39,120,138,90,140,63,188
+Wallonia,2020-08-25,estimate,125,130,41,100,119,93,145,60,189
+Wallonia,2020-08-26,estimate,130,135,42,107,127,90,145,67,199
+Wallonia,2020-08-27,estimate,119,124,39,94,112,82,132,64,184
+Wallonia,2020-08-28,estimate,124,129,40,110,127,89,139,62,189
+Wallonia,2020-08-29,estimate,59,61,20,54,62,44,68,28,90
+Wallonia,2020-08-30,estimate,27,28,10,21,25,18,30,10,42
+Wallonia,2020-08-31,estimate,146,151,47,123,144,112,170,75,221
+Wallonia,2020-09-01,estimate,157,163,52,122,145,114,177,77,239
+Wallonia,2020-09-02,estimate,171,177,56,132,158,122,192,84,262
+Wallonia,2020-09-03,estimate,164,170,53,141,165,128,195,85,250
+Wallonia,2020-09-04,estimate,183,189,60,158,185,138,212,90,278
+Wallonia,2020-09-05,estimate,91,94,30,78,91,64,102,46,140
+Wallonia,2020-09-06,estimate,42,44,15,30,37,28,47,20,67
+Wallonia,2020-09-07,estimate,246,256,80,196,231,182,280,129,379
+Wallonia,2020-09-08,estimate,277,286,89,236,277,216,328,141,420
+Wallonia,2020-09-09,estimate,305,317,100,262,307,227,351,159,465
+Wallonia,2020-09-10,estimate,304,315,99,264,310,212,336,164,470
+Wallonia,2020-09-11,estimate,341,352,108,291,341,254,389,163,500
+Wallonia,2020-09-12,estimate,169,175,55,134,159,125,192,87,256
+Wallonia,2020-09-13,estimate,81,83,27,68,80,59,92,41,126
+Wallonia,2020-09-14,estimate,460,477,148,419,486,347,531,241,698
+Wallonia,2020-09-15,estimate,499,518,159,438,506,386,578,259,753
+Wallonia,2020-09-16,estimate,548,565,172,500,577,431,644,294,829
+Wallonia,2020-09-17,estimate,531,549,167,461,538,379,589,277,805
+Wallonia,2020-09-18,estimate,576,597,182,480,563,428,657,296,865
+Wallonia,2020-09-19,estimate,277,288,91,231,272,201,314,136,421
+Wallonia,2020-09-20,estimate,130,134,42,115,133,94,146,64,198
+Wallonia,2020-09-21,estimate,717,746,229,585,688,538,825,386,1112
+Wallonia,2020-09-22,estimate,759,791,245,623,732,560,856,391,1160
+Wallonia,2020-09-23,estimate based on partial data,822,852,263,700,816,624,954,408,1249
+Wallonia,2020-09-24,estimate based on partial data,772,803,249,637,751,577,889,408,1179
+Wallonia,2020-09-25,estimate based on partial data,830,859,270,670,797,580,925,412,1265
+Wallonia,2020-09-26,estimate based on partial data,395,411,128,337,394,284,442,201,604
+Wallonia,2020-09-27,estimate based on partial data,181,189,60,149,175,138,213,87,275
+Wallonia,2020-09-28,estimate based on partial data,1011,1043,318,833,984,745,1153,541,1555
+Wallonia,2020-09-29,estimate based on partial data,1076,1119,348,956,1114,811,1235,551,1632
+Wallonia,2020-09-30,estimate based on partial data,1157,1198,377,938,1115,828,1291,617,1776
+Wallonia,2020-10-01,estimate based on partial data,1100,1148,364,1006,1166,798,1243,566,1701
+Wallonia,2020-10-02,estimate based on partial data,1199,1254,410,1021,1203,864,1355,651,1915
+Wallonia,2020-10-03,estimate based on partial data,590,619,212,450,546,426,682,285,934
+Wallonia,2020-10-04,forecast,272,290,113,211,258,185,312,121,456
+Wallonia,2020-10-05,forecast,1528,1643,652,1211,1464,1070,1788,728,2629
+Wallonia,2020-10-06,forecast,1672,1831,830,1388,1700,1032,1892,655,2970
+Wallonia,2020-10-07,forecast,1834,2060,1082,1223,1598,1037,2050,625,3390
+Wallonia,2020-10-08,forecast,1747,2063,1362,1329,1691,993,2012,557,3515
+Wallonia,2020-10-09,forecast,1932,2375,1818,1243,1663,920,2126,565,4155
+Wallonia,2020-10-10,forecast,956,1231,1208,525,745,497,1117,259,2251
+Wallonia,2020-10-11,forecast,450,623,726,241,355,169,494,95,1169
+Wallonia,2020-10-12,forecast,2500,3769,5878,1409,2066,1068,2881,378,6951
+Wallonia,2020-10-13,forecast,2745,4405,7677,1159,1904,824,2938,380,8189
+Wallonia,2020-10-14,forecast,3014,5410,12504,1267,2140,806,3239,403,10062
+Wallonia,2020-10-15,forecast,2891,5859,17899,924,1772,624,3011,325,10432
+Wallonia,2020-10-16,forecast,3241,7357,27707,1280,2229,641,3402,308,12702
+Wallonia,2020-10-17,forecast,1595,4320,23067,429,891,298,1679,149,6910

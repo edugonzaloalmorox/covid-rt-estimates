@@ -1,2 +1,7 @@
 Region,New confirmed cases by infection date,Expected change in daily cases,Effective reproduction no.,Rate of growth,Doubling/halving time (days)
-Europe,65587 (50295 -- 88902),Likely increasing,1.07 (0.97 -- 1.17),0.02 (-0.01 -- 0.05),36.6 (15.1 -- -100.9)
+Africa,7788 (4698 -- 11180),Unsure,1 (0.8 -- 1.2),0 (-0.04 -- 0.04),541.2 (16.3 -- -15.8)
+Americas,107039 (78138 -- 143718),Unsure,1 (0.9 -- 1.1),0 (-0.03 -- 0.03),-437.1 (25.4 -- -24)
+Asia,114041 (78216 -- 143680),Unsure,1 (0.9 -- 1.1),0 (-0.03 -- 0.02),-278.3 (34 -- -21.5)
+Europe,86317 (72663 -- 106258),Increasing,1.1 (1 -- 1.2),0.02 (0.01 -- 0.04),29.1 (17 -- 54.2)
+Global,308855 (244843 -- 374212),Unsure,1 (0.9 -- 1.1),0 (-0.02 -- 0.02),218.3 (35.9 -- -42.9)
+Oceania,246 (42 -- 616),Likely increasing,1.2 (0.8 -- 1.8),0.07 (-0.06 -- 0.21),10.5 (3.3 -- -12.2)

@@ -1,37 +1,41 @@
 region,point,lower,upper,mid_lower,mid_upper,central_lower,central_upper,metric,Expected change in daily cases
-Puglia,208,90,355,149,248,169,204,New confirmed cases by infection date,Likely increasing
-Campania,192,9,520,53,225,82,138,New confirmed cases by infection date,Unsure
-Veneto,190,71,328,120,222,149,185,New confirmed cases by infection date,Unsure
-Toscana,186,51,339,109,224,160,200,New confirmed cases by infection date,Unsure
-Liguria,182,105,331,126,201,148,173,New confirmed cases by infection date,Increasing
-Lazio,163,38,368,84,196,113,154,New confirmed cases by infection date,Unsure
-Emilia-Romagna,158,43,289,82,181,106,141,New confirmed cases by infection date,Unsure
-Sicilia,149,46,272,93,174,116,144,New confirmed cases by infection date,Unsure
-Piemonte,100,16,223,49,115,66,89,New confirmed cases by infection date,Unsure
-Friuli Venezia Giulia,79,40,114,61,91,75,85,New confirmed cases by infection date,Likely increasing
-Marche,60,21,114,38,70,48,60,New confirmed cases by infection date,Likely increasing
-Sardegna,53,1,154,12,60,20,37,New confirmed cases by infection date,Unsure
-Calabria,38,3,77,21,52,29,41,New confirmed cases by infection date,Unsure
-Abruzzo,36,11,69,19,41,27,34,New confirmed cases by infection date,Unsure
-Umbria,34,6,73,17,42,18,27,New confirmed cases by infection date,Unsure
-Basilicata,19,0,68,3,21,8,14,New confirmed cases by infection date,Unsure
-Molise,8,0,29,1,8,2,5,New confirmed cases by infection date,Unsure
-Valle d'Aosta,5,0,15,0,5,2,4,New confirmed cases by infection date,Unsure
-Liguria,1.19,1.03,1.39,1.14,1.23,1.15,1.18,Effective reproduction no.,Increasing
-Friuli Venezia Giulia,1.18,0.98,1.32,1.15,1.22,1.19,1.21,Effective reproduction no.,Likely increasing
-Puglia,1.17,0.95,1.37,1.09,1.24,1.16,1.22,Effective reproduction no.,Likely increasing
-Marche,1.16,0.91,1.5,1.06,1.23,1.13,1.18,Effective reproduction no.,Likely increasing
-Basilicata,1.15,0.6,1.76,0.92,1.27,1.13,1.25,Effective reproduction no.,Unsure
-Molise,1.12,0.55,1.85,0.91,1.28,1,1.13,Effective reproduction no.,Unsure
-Valle d'Aosta,1.12,0.54,1.62,1.02,1.24,1.12,1.18,Effective reproduction no.,Unsure
-Calabria,1.11,0.67,1.36,1.05,1.24,1.15,1.21,Effective reproduction no.,Unsure
-Sicilia,1.11,0.84,1.37,1,1.18,1.07,1.13,Effective reproduction no.,Unsure
-Abruzzo,1.08,0.81,1.3,1.01,1.16,1.08,1.14,Effective reproduction no.,Unsure
-Toscana,1.07,0.73,1.31,0.98,1.19,1.06,1.14,Effective reproduction no.,Unsure
-Piemonte,1.02,0.58,1.58,0.82,1.14,0.91,1.02,Effective reproduction no.,Unsure
-Umbria,1.02,0.66,1.4,0.87,1.15,0.96,1.06,Effective reproduction no.,Unsure
-Veneto,0.99,0.75,1.22,0.89,1.07,0.98,1.04,Effective reproduction no.,Unsure
-Emilia-Romagna,0.96,0.63,1.26,0.84,1.08,0.93,1.02,Effective reproduction no.,Unsure
-Lazio,0.95,0.56,1.44,0.74,1.08,0.83,0.95,Effective reproduction no.,Unsure
-Campania,0.9,0.41,1.41,0.69,1.07,0.8,0.94,Effective reproduction no.,Unsure
-Sardegna,0.88,0.34,1.43,0.66,1.05,0.75,0.9,Effective reproduction no.,Unsure
+Campania,718,95,1834,273,814,434,630,New confirmed cases by infection date,Unsure
+Lombardia,398,128,825,226,458,266,348,New confirmed cases by infection date,Likely increasing
+Veneto,296,153,474,228,337,252,291,New confirmed cases by infection date,Likely increasing
+Lazio,276,78,586,139,319,201,266,New confirmed cases by infection date,Unsure
+Piemonte,273,149,460,190,301,223,263,New confirmed cases by infection date,Increasing
+Toscana,194,80,353,118,210,149,182,New confirmed cases by infection date,Likely increasing
+Sicilia,193,64,327,119,218,149,186,New confirmed cases by infection date,Unsure
+Emilia-Romagna,168,52,354,91,187,107,141,New confirmed cases by infection date,Unsure
+Liguria,143,43,270,86,166,114,142,New confirmed cases by infection date,Unsure
+Puglia,130,55,249,80,144,98,121,New confirmed cases by infection date,Unsure
+Sardegna,100,11,265,31,110,56,84,New confirmed cases by infection date,Unsure
+Umbria,91,21,211,43,102,56,77,New confirmed cases by infection date,Likely increasing
+Basilicata,66,5,242,15,72,23,42,New confirmed cases by infection date,Likely increasing
+Trentino-Alto Adige,56,3,130,21,67,29,46,New confirmed cases by infection date,Unsure
+Marche,51,11,124,27,60,34,45,New confirmed cases by infection date,Unsure
+Friuli Venezia Giulia,48,24,80,34,55,40,47,New confirmed cases by infection date,Unsure
+Abruzzo,40,11,91,21,48,28,37,New confirmed cases by infection date,Unsure
+Calabria,16,2,38,6,19,8,12,New confirmed cases by infection date,Unsure
+Valle d'Aosta,8,1,23,3,9,4,6,New confirmed cases by infection date,Likely increasing
+Molise,7,0,37,0,7,1,3,New confirmed cases by infection date,Unsure
+Basilicata,1.3,0.7,1.9,1.1,1.5,1.2,1.3,Effective reproduction no.,Likely increasing
+Umbria,1.3,0.9,1.9,1.1,1.5,1.2,1.3,Effective reproduction no.,Likely increasing
+Campania,1.2,0.7,2,1,1.5,1.1,1.3,Effective reproduction no.,Unsure
+Lombardia,1.2,0.8,1.6,1,1.3,1.1,1.2,Effective reproduction no.,Likely increasing
+Marche,1.2,0.8,1.7,1,1.3,1.1,1.2,Effective reproduction no.,Unsure
+Piemonte,1.2,1,1.5,1.1,1.3,1.1,1.2,Effective reproduction no.,Increasing
+Abruzzo,1.1,0.8,1.4,1,1.2,1,1.1,Effective reproduction no.,Unsure
+Emilia-Romagna,1.1,0.8,1.6,1,1.2,1,1.1,Effective reproduction no.,Unsure
+Friuli Venezia Giulia,1.1,0.9,1.3,1,1.1,1,1.1,Effective reproduction no.,Unsure
+Lazio,1.1,0.6,1.5,0.8,1.2,0.9,1,Effective reproduction no.,Unsure
+Liguria,1.1,0.8,1.4,1,1.2,1.1,1.1,Effective reproduction no.,Unsure
+Molise,1.1,0.3,1.9,0.7,1.3,0.9,1.1,Effective reproduction no.,Unsure
+Puglia,1.1,0.8,1.4,1,1.2,1,1.1,Effective reproduction no.,Unsure
+Sardegna,1.1,0.6,1.7,0.8,1.2,1,1.1,Effective reproduction no.,Unsure
+Sicilia,1.1,0.9,1.4,1,1.2,1.1,1.1,Effective reproduction no.,Unsure
+Toscana,1.1,0.9,1.5,1,1.2,1,1.1,Effective reproduction no.,Likely increasing
+Trentino-Alto Adige,1.1,0.9,1.2,1,1.1,1.1,1.1,Effective reproduction no.,Unsure
+Valle d'Aosta,1.1,0.8,1.6,1,1.2,1.1,1.1,Effective reproduction no.,Likely increasing
+Veneto,1.1,0.9,1.3,1,1.1,1.1,1.1,Effective reproduction no.,Likely increasing
+Calabria,1,0.6,1.4,0.8,1.1,1,1.1,Effective reproduction no.,Unsure

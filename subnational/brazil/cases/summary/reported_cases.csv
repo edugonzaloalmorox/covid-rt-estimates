@@ -1,463 +1,4 @@
 region,date,confirm
-Acre,2020-06-21,118
-Alagoas,2020-06-21,959
-Amapá,2020-06-21,266
-Amazonas,2020-06-21,508
-Bahia,2020-06-21,975
-Ceará,2020-06-21,469
-Distrito Federal,2020-06-21,989
-Espirito Santo,2020-06-21,628
-Goiás,2020-06-21,454
-Maranhão,2020-06-21,386
-Mato Grosso,2020-06-21,514
-Mato Grosso do Sul,2020-06-21,154
-Minas Gerais,2020-06-21,336
-Pará,2020-06-21,1366
-Paraíba,2020-06-21,263
-Paraná,2020-06-21,680
-Pernambuco,2020-06-21,995
-Piauí,2020-06-21,212
-Rio de Janeiro,2020-06-21,596
-Rio Grande do Norte,2020-06-21,667
-Rio Grande do Sul,2020-06-21,210
-Rondônia,2020-06-21,229
-Roraima,2020-06-21,68
-Santa Catarina,2020-06-21,474
-São Paulo,2020-06-21,3392
-Sergipe,2020-06-21,536
-Tocantins,2020-06-21,123
-Acre,2020-06-22,158
-Alagoas,2020-06-22,738
-Amapá,2020-06-22,3022
-Amazonas,2020-06-22,321
-Bahia,2020-06-22,807
-Ceará,2020-06-22,1842
-Distrito Federal,2020-06-22,921
-Espirito Santo,2020-06-22,1281
-Goiás,2020-06-22,1181
-Maranhão,2020-06-22,630
-Mato Grosso,2020-06-22,494
-Mato Grosso do Sul,2020-06-22,393
-Minas Gerais,2020-06-22,1277
-Pará,2020-06-22,2616
-Paraíba,2020-06-22,469
-Paraná,2020-06-22,623
-Pernambuco,2020-06-22,381
-Piauí,2020-06-22,793
-Rio de Janeiro,2020-06-22,1439
-Rio Grande do Norte,2020-06-22,118
-Rio Grande do Sul,2020-06-22,362
-Rondônia,2020-06-22,646
-Roraima,2020-06-22,2152
-Santa Catarina,2020-06-22,355
-São Paulo,2020-06-22,2788
-Sergipe,2020-06-22,399
-Tocantins,2020-06-22,289
-Acre,2020-06-23,271
-Alagoas,2020-06-23,853
-Amapá,2020-06-23,1575
-Amazonas,2020-06-23,1342
-Bahia,2020-06-23,1998
-Ceará,2020-06-23,3347
-Distrito Federal,2020-06-23,1220
-Espirito Santo,2020-06-23,680
-Goiás,2020-06-23,929
-Maranhão,2020-06-23,1332
-Mato Grosso,2020-06-23,747
-Mato Grosso do Sul,2020-06-23,417
-Minas Gerais,2020-06-23,979
-Pará,2020-06-23,3072
-Paraíba,2020-06-23,1746
-Paraná,2020-06-23,729
-Pernambuco,2020-06-23,337
-Piauí,2020-06-23,958
-Rio de Janeiro,2020-06-23,3297
-Rio Grande do Norte,2020-06-23,1769
-Rio Grande do Sul,2020-06-23,1154
-Rondônia,2020-06-23,672
-Roraima,2020-06-23,463
-Santa Catarina,2020-06-23,1307
-São Paulo,2020-06-23,7502
-Sergipe,2020-06-23,499
-Tocantins,2020-06-23,332
-Acre,2020-06-24,212
-Alagoas,2020-06-24,982
-Amapá,2020-06-24,482
-Amazonas,2020-06-24,1691
-Bahia,2020-06-24,2847
-Ceará,2020-06-24,1523
-Distrito Federal,2020-06-24,1886
-Espirito Santo,2020-06-24,1656
-Goiás,2020-06-24,1266
-Maranhão,2020-06-24,1293
-Mato Grosso,2020-06-24,554
-Mato Grosso do Sul,2020-06-24,322
-Minas Gerais,2020-06-24,1446
-Pará,2020-06-24,2328
-Paraíba,2020-06-24,913
-Paraná,2020-06-24,1110
-Pernambuco,2020-06-24,1191
-Piauí,2020-06-24,853
-Rio de Janeiro,2020-06-24,2624
-Rio Grande do Norte,2020-06-24,894
-Rio Grande do Sul,2020-06-24,1145
-Rondônia,2020-06-24,925
-Roraima,2020-06-24,1069
-Santa Catarina,2020-06-24,1677
-São Paulo,2020-06-24,9347
-Sergipe,2020-06-24,470
-Tocantins,2020-06-24,327
-Acre,2020-06-25,282
-Alagoas,2020-06-25,835
-Amapá,2020-06-25,496
-Amazonas,2020-06-25,503
-Bahia,2020-06-25,2360
-Ceará,2020-06-25,3540
-Distrito Federal,2020-06-25,1617
-Espirito Santo,2020-06-25,1923
-Goiás,2020-06-25,1097
-Maranhão,2020-06-25,1611
-Mato Grosso,2020-06-25,1030
-Mato Grosso do Sul,2020-06-25,390
-Minas Gerais,2020-06-25,1426
-Pará,2020-06-25,2436
-Paraíba,2020-06-25,912
-Paraná,2020-06-25,859
-Pernambuco,2020-06-25,1114
-Piauí,2020-06-25,943
-Rio de Janeiro,2020-06-25,2404
-Rio Grande do Norte,2020-06-25,1068
-Rio Grande do Sul,2020-06-25,1051
-Rondônia,2020-06-25,749
-Roraima,2020-06-25,1039
-Santa Catarina,2020-06-25,1030
-São Paulo,2020-06-25,9765
-Sergipe,2020-06-25,728
-Tocantins,2020-06-25,256
-Acre,2020-06-26,340
-Alagoas,2020-06-26,799
-Amapá,2020-06-26,247
-Amazonas,2020-06-26,953
-Bahia,2020-06-26,2130
-Ceará,2020-06-26,2152
-Distrito Federal,2020-06-26,2455
-Espirito Santo,2020-06-26,1246
-Goiás,2020-06-26,1064
-Maranhão,2020-06-26,1773
-Mato Grosso,2020-06-26,805
-Mato Grosso do Sul,2020-06-26,394
-Minas Gerais,2020-06-26,6122
-Pará,2020-06-26,2841
-Paraíba,2020-06-26,2008
-Paraná,2020-06-26,850
-Pernambuco,2020-06-26,668
-Piauí,2020-06-26,642
-Rio de Janeiro,2020-06-26,2600
-Rio Grande do Norte,2020-06-26,447
-Rio Grande do Sul,2020-06-26,1054
-Rondônia,2020-06-26,1098
-Roraima,2020-06-26,167
-Santa Catarina,2020-06-26,996
-São Paulo,2020-06-26,9921
-Sergipe,2020-06-26,827
-Tocantins,2020-06-26,285
-Acre,2020-06-27,269
-Alagoas,2020-06-27,657
-Amapá,2020-06-27,239
-Amazonas,2020-06-27,802
-Bahia,2020-06-27,8822
-Ceará,2020-06-27,1794
-Distrito Federal,2020-06-27,1440
-Espirito Santo,2020-06-27,0
-Goiás,2020-06-27,424
-Maranhão,2020-06-27,1417
-Mato Grosso,2020-06-27,722
-Mato Grosso do Sul,2020-06-27,220
-Minas Gerais,2020-06-27,2075
-Pará,2020-06-27,1130
-Paraíba,2020-06-27,1410
-Paraná,2020-06-27,1147
-Pernambuco,2020-06-27,1285
-Piauí,2020-06-27,493
-Rio de Janeiro,2020-06-27,306
-Rio Grande do Norte,2020-06-27,48
-Rio Grande do Sul,2020-06-27,886
-Rondônia,2020-06-27,464
-Roraima,2020-06-27,1263
-Santa Catarina,2020-06-27,861
-São Paulo,2020-06-27,7073
-Sergipe,2020-06-27,1411
-Tocantins,2020-06-27,262
-Acre,2020-06-28,145
-Alagoas,2020-06-28,791
-Amapá,2020-06-28,84
-Amazonas,2020-06-28,627
-Bahia,2020-06-28,3251
-Ceará,2020-06-28,529
-Distrito Federal,2020-06-28,2139
-Espirito Santo,2020-06-28,2031
-Goiás,2020-06-28,300
-Maranhão,2020-06-28,397
-Mato Grosso,2020-06-28,559
-Mato Grosso do Sul,2020-06-28,149
-Minas Gerais,2020-06-28,1775
-Pará,2020-06-28,764
-Paraíba,2020-06-28,437
-Paraná,2020-06-28,923
-Pernambuco,2020-06-28,1018
-Piauí,2020-06-28,595
-Rio de Janeiro,2020-06-28,2495
-Rio Grande do Norte,2020-06-28,5483
-Rio Grande do Sul,2020-06-28,243
-Rondônia,2020-06-28,85
-Roraima,2020-06-28,118
-Santa Catarina,2020-06-28,556
-São Paulo,2020-06-28,6156
-Sergipe,2020-06-28,1102
-Tocantins,2020-06-28,131
-Acre,2020-06-29,88
-Alagoas,2020-06-29,805
-Amapá,2020-06-29,268
-Amazonas,2020-06-29,244
-Bahia,2020-06-29,972
-Ceará,2020-06-29,632
-Distrito Federal,2020-06-29,2166
-Espirito Santo,2020-06-29,1414
-Goiás,2020-06-29,1214
-Maranhão,2020-06-29,457
-Mato Grosso,2020-06-29,641
-Mato Grosso do Sul,2020-06-29,289
-Minas Gerais,2020-06-29,1123
-Pará,2020-06-29,1999
-Paraíba,2020-06-29,378
-Paraná,2020-06-29,584
-Pernambuco,2020-06-29,369
-Piauí,2020-06-29,669
-Rio de Janeiro,2020-06-29,585
-Rio Grande do Norte,2020-06-29,568
-Rio Grande do Sul,2020-06-29,416
-Rondônia,2020-06-29,586
-Roraima,2020-06-29,182
-Santa Catarina,2020-06-29,692
-São Paulo,2020-06-29,3408
-Sergipe,2020-06-29,396
-Tocantins,2020-06-29,405
-Acre,2020-06-30,107
-Alagoas,2020-06-30,845
-Amapá,2020-06-30,239
-Amazonas,2020-06-30,930
-Bahia,2020-06-30,3840
-Ceará,2020-06-30,2258
-Distrito Federal,2020-06-30,2147
-Espirito Santo,2020-06-30,1796
-Goiás,2020-06-30,1531
-Maranhão,2020-06-30,1482
-Mato Grosso,2020-06-30,976
-Mato Grosso do Sul,2020-06-30,711
-Minas Gerais,2020-06-30,1137
-Pará,2020-06-30,2647
-Paraíba,2020-06-30,1900
-Paraná,2020-06-30,1551
-Pernambuco,2020-06-30,382
-Piauí,2020-06-30,1637
-Rio de Janeiro,2020-06-30,728
-Rio Grande do Norte,2020-06-30,1612
-Rio Grande do Sul,2020-06-30,1282
-Rondônia,2020-06-30,845
-Roraima,2020-06-30,512
-Santa Catarina,2020-06-30,1298
-São Paulo,2020-06-30,6235
-Sergipe,2020-06-30,594
-Tocantins,2020-06-30,458
-Acre,2020-07-01,462
-Alagoas,2020-07-01,857
-Amapá,2020-07-01,435
-Amazonas,2020-07-01,1461
-Bahia,2020-07-01,3178
-Ceará,2020-07-01,3555
-Distrito Federal,2020-07-01,1458
-Espirito Santo,2020-07-01,1928
-Goiás,2020-07-01,1235
-Maranhão,2020-07-01,2805
-Mato Grosso,2020-07-01,1097
-Mato Grosso do Sul,2020-07-01,386
-Minas Gerais,2020-07-01,2583
-Pará,2020-07-01,2214
-Paraíba,2020-07-01,1218
-Paraná,2020-07-01,1348
-Pernambuco,2020-07-01,847
-Piauí,2020-07-01,1248
-Rio de Janeiro,2020-07-01,2667
-Rio Grande do Norte,2020-07-01,998
-Rio Grande do Sul,2020-07-01,1230
-Rondônia,2020-07-01,272
-Roraima,2020-07-01,2430
-Santa Catarina,2020-07-01,925
-São Paulo,2020-07-01,8555
-Sergipe,2020-07-01,1201
-Tocantins,2020-07-01,232
-Acre,2020-07-02,333
-Alagoas,2020-07-02,509
-Amapá,2020-07-02,226
-Amazonas,2020-07-02,1246
-Bahia,2020-07-02,2864
-Ceará,2020-07-02,2481
-Distrito Federal,2020-07-02,1605
-Espirito Santo,2020-07-02,1421
-Goiás,2020-07-02,173
-Maranhão,2020-07-02,2769
-Mato Grosso,2020-07-02,955
-Mato Grosso do Sul,2020-07-02,326
-Minas Gerais,2020-07-02,3123
-Pará,2020-07-02,2344
-Paraíba,2020-07-02,1361
-Paraná,2020-07-02,2079
-Pernambuco,2020-07-02,1414
-Piauí,2020-07-02,1069
-Rio de Janeiro,2020-07-02,1545
-Rio Grande do Norte,2020-07-02,525
-Rio Grande do Sul,2020-07-02,1024
-Rondônia,2020-07-02,447
-Roraima,2020-07-02,740
-Santa Catarina,2020-07-02,1296
-São Paulo,2020-07-02,12244
-Sergipe,2020-07-02,0
-Tocantins,2020-07-02,282
-Acre,2020-07-03,64
-Alagoas,2020-07-03,1076
-Amapá,2020-07-03,421
-Amazonas,2020-07-03,1007
-Bahia,2020-07-03,2965
-Ceará,2020-07-03,1792
-Distrito Federal,2020-07-03,1715
-Espirito Santo,2020-07-03,1447
-Goiás,2020-07-03,1184
-Maranhão,2020-07-03,2189
-Mato Grosso,2020-07-03,1184
-Mato Grosso do Sul,2020-07-03,522
-Minas Gerais,2020-07-03,2644
-Pará,2020-07-03,2120
-Paraíba,2020-07-03,1229
-Paraná,2020-07-03,1863
-Pernambuco,2020-07-03,1243
-Piauí,2020-07-03,1185
-Rio de Janeiro,2020-07-03,2133
-Rio Grande do Norte,2020-07-03,835
-Rio Grande do Sul,2020-07-03,1176
-Rondônia,2020-07-03,271
-Roraima,2020-07-03,446
-Santa Catarina,2020-07-03,1686
-São Paulo,2020-07-03,8523
-Sergipe,2020-07-03,1574
-Tocantins,2020-07-03,546
-Acre,2020-07-04,375
-Alagoas,2020-07-04,851
-Amapá,2020-07-04,235
-Amazonas,2020-07-04,1408
-Bahia,2020-07-04,3171
-Ceará,2020-07-04,3153
-Distrito Federal,2020-07-04,1764
-Espirito Santo,2020-07-04,1135
-Goiás,2020-07-04,1024
-Maranhão,2020-07-04,843
-Mato Grosso,2020-07-04,793
-Mato Grosso do Sul,2020-07-04,179
-Minas Gerais,2020-07-04,2607
-Pará,2020-07-04,1280
-Paraíba,2020-07-04,1541
-Paraná,2020-07-04,2404
-Pernambuco,2020-07-04,1095
-Piauí,2020-07-04,518
-Rio de Janeiro,2020-07-04,1484
-Rio Grande do Norte,2020-07-04,323
-Rio Grande do Sul,2020-07-04,1248
-Rondônia,2020-07-04,716
-Roraima,2020-07-04,153
-Santa Catarina,2020-07-04,1670
-São Paulo,2020-07-04,1828
-Sergipe,2020-07-04,1575
-Tocantins,2020-07-04,194
-Acre,2020-07-05,135
-Alagoas,2020-07-05,680
-Amapá,2020-07-05,74
-Amazonas,2020-07-05,69
-Bahia,2020-07-05,1563
-Ceará,2020-07-05,522
-Distrito Federal,2020-07-05,2094
-Espirito Santo,2020-07-05,569
-Goiás,2020-07-05,0
-Maranhão,2020-07-05,657
-Mato Grosso,2020-07-05,748
-Mato Grosso do Sul,2020-07-05,164
-Minas Gerais,2020-07-05,2325
-Pará,2020-07-05,724
-Paraíba,2020-07-05,422
-Paraná,2020-07-05,889
-Pernambuco,2020-07-05,1672
-Piauí,2020-07-05,432
-Rio de Janeiro,2020-07-05,852
-Rio Grande do Norte,2020-07-05,411
-Rio Grande do Sul,2020-07-05,336
-Rondônia,2020-07-05,522
-Roraima,2020-07-05,26
-Santa Catarina,2020-07-05,1038
-São Paulo,2020-07-05,7649
-Sergipe,2020-07-05,456
-Tocantins,2020-07-05,164
-Acre,2020-07-06,66
-Alagoas,2020-07-06,634
-Amapá,2020-07-06,121
-Amazonas,2020-07-06,413
-Bahia,2020-07-06,1231
-Ceará,2020-07-06,1408
-Distrito Federal,2020-07-06,2529
-Espirito Santo,2020-07-06,1154
-Goiás,2020-07-06,1661
-Maranhão,2020-07-06,537
-Mato Grosso,2020-07-06,997
-Mato Grosso do Sul,2020-07-06,434
-Minas Gerais,2020-07-06,1343
-Pará,2020-07-06,1617
-Paraíba,2020-07-06,418
-Paraná,2020-07-06,1310
-Pernambuco,2020-07-06,513
-Piauí,2020-07-06,1003
-Rio de Janeiro,2020-07-06,587
-Rio Grande do Norte,2020-07-06,841
-Rio Grande do Sul,2020-07-06,446
-Rondônia,2020-07-06,442
-Roraima,2020-07-06,140
-Santa Catarina,2020-07-06,853
-São Paulo,2020-07-06,2891
-Sergipe,2020-07-06,501
-Tocantins,2020-07-06,364
-Acre,2020-07-07,253
-Alagoas,2020-07-07,955
-Amapá,2020-07-07,290
-Amazonas,2020-07-07,2740
-Bahia,2020-07-07,3675
-Ceará,2020-07-07,2748
-Distrito Federal,2020-07-07,2311
-Espirito Santo,2020-07-07,2156
-Goiás,2020-07-07,1814
-Maranhão,2020-07-07,1837
-Mato Grosso,2020-07-07,1428
-Mato Grosso do Sul,2020-07-07,376
-Minas Gerais,2020-07-07,1271
-Pará,2020-07-07,2592
-Paraíba,2020-07-07,1656
-Paraná,2020-07-07,1539
-Pernambuco,2020-07-07,509
-Piauí,2020-07-07,897
-Rio de Janeiro,2020-07-07,2207
-Rio Grande do Norte,2020-07-07,690
-Rio Grande do Sul,2020-07-07,1399
-Rondônia,2020-07-07,643
-Roraima,2020-07-07,196
-Santa Catarina,2020-07-07,1521
-São Paulo,2020-07-07,9638
-Sergipe,2020-07-07,922
-Tocantins,2020-07-07,436
 Acre,2020-07-08,226
 Alagoas,2020-07-08,798
 Amapá,2020-07-08,230
@@ -2294,3 +1835,462 @@ Santa Catarina,2020-09-13,681
 São Paulo,2020-09-13,1567
 Sergipe,2020-09-13,68
 Tocantins,2020-09-13,313
+Acre,2020-09-14,10
+Alagoas,2020-09-14,102
+Amapá,2020-09-14,102
+Amazonas,2020-09-14,275
+Bahia,2020-09-14,718
+Ceará,2020-09-14,350
+Distrito Federal,2020-09-14,1084
+Espirito Santo,2020-09-14,704
+Goiás,2020-09-14,4491
+Maranhão,2020-09-14,415
+Mato Grosso,2020-09-14,1450
+Mato Grosso do Sul,2020-09-14,889
+Minas Gerais,2020-09-14,1734
+Pará,2020-09-14,1512
+Paraíba,2020-09-14,202
+Paraná,2020-09-14,649
+Pernambuco,2020-09-14,181
+Piauí,2020-09-14,675
+Rio de Janeiro,2020-09-14,320
+Rio Grande do Norte,2020-09-14,289
+Rio Grande do Sul,2020-09-14,1004
+Rondônia,2020-09-14,262
+Roraima,2020-09-14,303
+Santa Catarina,2020-09-14,895
+São Paulo,2020-09-14,1092
+Sergipe,2020-09-14,213
+Tocantins,2020-09-14,690
+Acre,2020-09-15,111
+Alagoas,2020-09-15,263
+Amapá,2020-09-15,162
+Amazonas,2020-09-15,743
+Bahia,2020-09-15,2213
+Ceará,2020-09-15,1451
+Distrito Federal,2020-09-15,826
+Espirito Santo,2020-09-15,722
+Goiás,2020-09-15,3094
+Maranhão,2020-09-15,804
+Mato Grosso,2020-09-15,1222
+Mato Grosso do Sul,2020-09-15,666
+Minas Gerais,2020-09-15,1609
+Pará,2020-09-15,1182
+Paraíba,2020-09-15,740
+Paraná,2020-09-15,1000
+Pernambuco,2020-09-15,1016
+Piauí,2020-09-15,746
+Rio de Janeiro,2020-09-15,1607
+Rio Grande do Norte,2020-09-15,286
+Rio Grande do Sul,2020-09-15,3033
+Rondônia,2020-09-15,514
+Roraima,2020-09-15,316
+Santa Catarina,2020-09-15,1601
+São Paulo,2020-09-15,7922
+Sergipe,2020-09-15,157
+Tocantins,2020-09-15,546
+Acre,2020-09-16,176
+Alagoas,2020-09-16,388
+Amapá,2020-09-16,149
+Amazonas,2020-09-16,701
+Bahia,2020-09-16,2237
+Ceará,2020-09-16,1156
+Distrito Federal,2020-09-16,1076
+Espirito Santo,2020-09-16,736
+Goiás,2020-09-16,3676
+Maranhão,2020-09-16,968
+Mato Grosso,2020-09-16,1325
+Mato Grosso do Sul,2020-09-16,831
+Minas Gerais,2020-09-16,2989
+Pará,2020-09-16,958
+Paraíba,2020-09-16,679
+Paraná,2020-09-16,1510
+Pernambuco,2020-09-16,699
+Piauí,2020-09-16,712
+Rio de Janeiro,2020-09-16,1764
+Rio Grande do Norte,2020-09-16,392
+Rio Grande do Sul,2020-09-16,3433
+Rondônia,2020-09-16,359
+Roraima,2020-09-16,234
+Santa Catarina,2020-09-16,1441
+São Paulo,2020-09-16,8157
+Sergipe,2020-09-16,139
+Tocantins,2020-09-16,412
+Acre,2020-09-17,253
+Alagoas,2020-09-17,52
+Amapá,2020-09-17,106
+Amazonas,2020-09-17,650
+Bahia,2020-09-17,1970
+Ceará,2020-09-17,1104
+Distrito Federal,2020-09-17,1021
+Espirito Santo,2020-09-17,761
+Goiás,2020-09-17,3617
+Maranhão,2020-09-17,729
+Mato Grosso,2020-09-17,1263
+Mato Grosso do Sul,2020-09-17,1023
+Minas Gerais,2020-09-17,3406
+Pará,2020-09-17,762
+Paraíba,2020-09-17,777
+Paraná,2020-09-17,2469
+Pernambuco,2020-09-17,757
+Piauí,2020-09-17,772
+Rio de Janeiro,2020-09-17,661
+Rio Grande do Norte,2020-09-17,333
+Rio Grande do Sul,2020-09-17,3408
+Rondônia,2020-09-17,539
+Roraima,2020-09-17,294
+Santa Catarina,2020-09-17,1252
+São Paulo,2020-09-17,7393
+Sergipe,2020-09-17,218
+Tocantins,2020-09-17,815
+Acre,2020-09-18,226
+Alagoas,2020-09-18,263
+Amapá,2020-09-18,229
+Amazonas,2020-09-18,858
+Bahia,2020-09-18,2364
+Ceará,2020-09-18,1440
+Distrito Federal,2020-09-18,1075
+Espirito Santo,2020-09-18,802
+Goiás,2020-09-18,4141
+Maranhão,2020-09-18,1081
+Mato Grosso,2020-09-18,1495
+Mato Grosso do Sul,2020-09-18,649
+Minas Gerais,2020-09-18,3184
+Pará,2020-09-18,985
+Paraíba,2020-09-18,607
+Paraná,2020-09-18,2123
+Pernambuco,2020-09-18,910
+Piauí,2020-09-18,618
+Rio de Janeiro,2020-09-18,2955
+Rio Grande do Norte,2020-09-18,309
+Rio Grande do Sul,2020-09-18,2968
+Rondônia,2020-09-18,337
+Roraima,2020-09-18,396
+Santa Catarina,2020-09-18,1232
+São Paulo,2020-09-18,7711
+Sergipe,2020-09-18,104
+Tocantins,2020-09-18,669
+Acre,2020-09-19,119
+Alagoas,2020-09-19,652
+Amapá,2020-09-19,137
+Amazonas,2020-09-19,1214
+Bahia,2020-09-19,2191
+Ceará,2020-09-19,650
+Distrito Federal,2020-09-19,1177
+Espirito Santo,2020-09-19,447
+Goiás,2020-09-19,927
+Maranhão,2020-09-19,753
+Mato Grosso,2020-09-19,617
+Mato Grosso do Sul,2020-09-19,382
+Minas Gerais,2020-09-19,2824
+Pará,2020-09-19,314
+Paraíba,2020-09-19,622
+Paraná,2020-09-19,1557
+Pernambuco,2020-09-19,807
+Piauí,2020-09-19,309
+Rio de Janeiro,2020-09-19,1463
+Rio Grande do Norte,2020-09-19,0
+Rio Grande do Sul,2020-09-19,3391
+Rondônia,2020-09-19,202
+Roraima,2020-09-19,214
+Santa Catarina,2020-09-19,1084
+São Paulo,2020-09-19,7141
+Sergipe,2020-09-19,108
+Tocantins,2020-09-19,256
+Acre,2020-09-20,18
+Alagoas,2020-09-20,558
+Amapá,2020-09-20,125
+Amazonas,2020-09-20,184
+Bahia,2020-09-20,1093
+Ceará,2020-09-20,291
+Distrito Federal,2020-09-20,653
+Espirito Santo,2020-09-20,571
+Goiás,2020-09-20,540
+Maranhão,2020-09-20,324
+Mato Grosso,2020-09-20,369
+Mato Grosso do Sul,2020-09-20,185
+Minas Gerais,2020-09-20,2044
+Pará,2020-09-20,256
+Paraíba,2020-09-20,148
+Paraná,2020-09-20,1409
+Pernambuco,2020-09-20,475
+Piauí,2020-09-20,247
+Rio de Janeiro,2020-09-20,648
+Rio Grande do Norte,2020-09-20,254
+Rio Grande do Sul,2020-09-20,637
+Rondônia,2020-09-20,166
+Roraima,2020-09-20,28
+Santa Catarina,2020-09-20,370
+São Paulo,2020-09-20,3627
+Sergipe,2020-09-20,101
+Tocantins,2020-09-20,121
+Acre,2020-09-21,27
+Alagoas,2020-09-21,212
+Amapá,2020-09-21,83
+Amazonas,2020-09-21,163
+Bahia,2020-09-21,693
+Ceará,2020-09-21,229
+Distrito Federal,2020-09-21,806
+Espirito Santo,2020-09-21,894
+Goiás,2020-09-21,2575
+Maranhão,2020-09-21,291
+Mato Grosso,2020-09-21,1744
+Mato Grosso do Sul,2020-09-21,926
+Minas Gerais,2020-09-21,1141
+Pará,2020-09-21,864
+Paraíba,2020-09-21,143
+Paraná,2020-09-21,606
+Pernambuco,2020-09-21,260
+Piauí,2020-09-21,738
+Rio de Janeiro,2020-09-21,137
+Rio Grande do Norte,2020-09-21,242
+Rio Grande do Sul,2020-09-21,572
+Rondônia,2020-09-21,404
+Roraima,2020-09-21,212
+Santa Catarina,2020-09-21,712
+São Paulo,2020-09-21,2032
+Sergipe,2020-09-21,200
+Tocantins,2020-09-21,729
+Acre,2020-09-22,140
+Alagoas,2020-09-22,288
+Amapá,2020-09-22,189
+Amazonas,2020-09-22,767
+Bahia,2020-09-22,1809
+Ceará,2020-09-22,1102
+Distrito Federal,2020-09-22,794
+Espirito Santo,2020-09-22,686
+Goiás,2020-09-22,3766
+Maranhão,2020-09-22,965
+Mato Grosso,2020-09-22,1070
+Mato Grosso do Sul,2020-09-22,652
+Minas Gerais,2020-09-22,2039
+Pará,2020-09-22,1382
+Paraíba,2020-09-22,616
+Paraná,2020-09-22,2184
+Pernambuco,2020-09-22,711
+Piauí,2020-09-22,675
+Rio de Janeiro,2020-09-22,1710
+Rio Grande do Norte,2020-09-22,311
+Rio Grande do Sul,2020-09-22,2136
+Rondônia,2020-09-22,514
+Roraima,2020-09-22,377
+Santa Catarina,2020-09-22,1360
+São Paulo,2020-09-22,8090
+Sergipe,2020-09-22,120
+Tocantins,2020-09-22,514
+Acre,2020-09-23,151
+Alagoas,2020-09-23,551
+Amapá,2020-09-23,229
+Amazonas,2020-09-23,726
+Bahia,2020-09-23,1610
+Ceará,2020-09-23,1369
+Distrito Federal,2020-09-23,705
+Espirito Santo,2020-09-23,735
+Goiás,2020-09-23,3465
+Maranhão,2020-09-23,777
+Mato Grosso,2020-09-23,1299
+Mato Grosso do Sul,2020-09-23,815
+Minas Gerais,2020-09-23,3081
+Pará,2020-09-23,1281
+Paraíba,2020-09-23,553
+Paraná,2020-09-23,1245
+Pernambuco,2020-09-23,677
+Piauí,2020-09-23,771
+Rio de Janeiro,2020-09-23,1129
+Rio Grande do Norte,2020-09-23,298
+Rio Grande do Sul,2020-09-23,1951
+Rondônia,2020-09-23,525
+Roraima,2020-09-23,297
+Santa Catarina,2020-09-23,1208
+São Paulo,2020-09-23,6551
+Sergipe,2020-09-23,160
+Tocantins,2020-09-23,567
+Acre,2020-09-24,159
+Alagoas,2020-09-24,194
+Amapá,2020-09-24,152
+Amazonas,2020-09-24,876
+Bahia,2020-09-24,1833
+Ceará,2020-09-24,556
+Distrito Federal,2020-09-24,891
+Espirito Santo,2020-09-24,762
+Goiás,2020-09-24,3035
+Maranhão,2020-09-24,496
+Mato Grosso,2020-09-24,1249
+Mato Grosso do Sul,2020-09-24,770
+Minas Gerais,2020-09-24,2587
+Pará,2020-09-24,1322
+Paraíba,2020-09-24,519
+Paraná,2020-09-24,1585
+Pernambuco,2020-09-24,538
+Piauí,2020-09-24,598
+Rio de Janeiro,2020-09-24,3100
+Rio Grande do Norte,2020-09-24,274
+Rio Grande do Sul,2020-09-24,1781
+Rondônia,2020-09-24,175
+Roraima,2020-09-24,258
+Santa Catarina,2020-09-24,1148
+São Paulo,2020-09-24,6267
+Sergipe,2020-09-24,250
+Tocantins,2020-09-24,640
+Acre,2020-09-25,154
+Alagoas,2020-09-25,184
+Amapá,2020-09-25,141
+Amazonas,2020-09-25,916
+Bahia,2020-09-25,1810
+Ceará,2020-09-25,710
+Distrito Federal,2020-09-25,950
+Espirito Santo,2020-09-25,897
+Goiás,2020-09-25,2463
+Maranhão,2020-09-25,737
+Mato Grosso,2020-09-25,1180
+Mato Grosso do Sul,2020-09-25,638
+Minas Gerais,2020-09-25,4578
+Pará,2020-09-25,1202
+Paraíba,2020-09-25,567
+Paraná,2020-09-25,1424
+Pernambuco,2020-09-25,565
+Piauí,2020-09-25,780
+Rio de Janeiro,2020-09-25,1503
+Rio Grande do Norte,2020-09-25,171
+Rio Grande do Sul,2020-09-25,1898
+Rondônia,2020-09-25,251
+Roraima,2020-09-25,207
+Santa Catarina,2020-09-25,1057
+São Paulo,2020-09-25,6681
+Sergipe,2020-09-25,124
+Tocantins,2020-09-25,522
+Acre,2020-09-26,149
+Alagoas,2020-09-26,187
+Amapá,2020-09-26,88
+Amazonas,2020-09-26,964
+Bahia,2020-09-26,2128
+Ceará,2020-09-26,725
+Distrito Federal,2020-09-26,713
+Espirito Santo,2020-09-26,457
+Goiás,2020-09-26,392
+Maranhão,2020-09-26,557
+Mato Grosso,2020-09-26,646
+Mato Grosso do Sul,2020-09-26,258
+Minas Gerais,2020-09-26,2871
+Pará,2020-09-26,930
+Paraíba,2020-09-26,597
+Paraná,2020-09-26,2079
+Pernambuco,2020-09-26,672
+Piauí,2020-09-26,361
+Rio de Janeiro,2020-09-26,182
+Rio Grande do Norte,2020-09-26,0
+Rio Grande do Sul,2020-09-26,2004
+Rondônia,2020-09-26,191
+Roraima,2020-09-26,230
+Santa Catarina,2020-09-26,986
+São Paulo,2020-09-26,5967
+Sergipe,2020-09-26,190
+Tocantins,2020-09-26,194
+Acre,2020-09-27,15
+Alagoas,2020-09-27,170
+Amapá,2020-09-27,50
+Amazonas,2020-09-27,247
+Bahia,2020-09-27,850
+Ceará,2020-09-27,480
+Distrito Federal,2020-09-27,905
+Espirito Santo,2020-09-27,470
+Goiás,2020-09-27,427
+Maranhão,2020-09-27,275
+Mato Grosso,2020-09-27,267
+Mato Grosso do Sul,2020-09-27,233
+Minas Gerais,2020-09-27,2269
+Pará,2020-09-27,312
+Paraíba,2020-09-27,52
+Paraná,2020-09-27,1132
+Pernambuco,2020-09-27,76
+Piauí,2020-09-27,193
+Rio de Janeiro,2020-09-27,2190
+Rio Grande do Norte,2020-09-27,272
+Rio Grande do Sul,2020-09-27,397
+Rondônia,2020-09-27,285
+Roraima,2020-09-27,57
+Santa Catarina,2020-09-27,493
+São Paulo,2020-09-27,1349
+Sergipe,2020-09-27,166
+Tocantins,2020-09-27,155
+Acre,2020-09-28,11
+Alagoas,2020-09-28,99
+Amapá,2020-09-28,140
+Amazonas,2020-09-28,292
+Bahia,2020-09-28,593
+Ceará,2020-09-28,403
+Distrito Federal,2020-09-28,992
+Espirito Santo,2020-09-28,604
+Goiás,2020-09-28,4788
+Maranhão,2020-09-28,421
+Mato Grosso,2020-09-28,1121
+Mato Grosso do Sul,2020-09-28,638
+Minas Gerais,2020-09-28,1518
+Pará,2020-09-28,1107
+Paraíba,2020-09-28,204
+Paraná,2020-09-28,839
+Pernambuco,2020-09-28,80
+Piauí,2020-09-28,494
+Rio de Janeiro,2020-09-28,146
+Rio Grande do Norte,2020-09-28,248
+Rio Grande do Sul,2020-09-28,262
+Rondônia,2020-09-28,178
+Roraima,2020-09-28,217
+Santa Catarina,2020-09-28,482
+São Paulo,2020-09-28,905
+Sergipe,2020-09-28,89
+Tocantins,2020-09-28,0
+Acre,2020-09-29,145
+Alagoas,2020-09-29,156
+Amapá,2020-09-29,119
+Amazonas,2020-09-29,1256
+Bahia,2020-09-29,1623
+Ceará,2020-09-29,674
+Distrito Federal,2020-09-29,812
+Espirito Santo,2020-09-29,918
+Goiás,2020-09-29,2927
+Maranhão,2020-09-29,669
+Mato Grosso,2020-09-29,1350
+Mato Grosso do Sul,2020-09-29,743
+Minas Gerais,2020-09-29,2154
+Pará,2020-09-29,1274
+Paraíba,2020-09-29,667
+Paraná,2020-09-29,1316
+Pernambuco,2020-09-29,1229
+Piauí,2020-09-29,859
+Rio de Janeiro,2020-09-29,1693
+Rio Grande do Norte,2020-09-29,420
+Rio Grande do Sul,2020-09-29,2475
+Rondônia,2020-09-29,287
+Roraima,2020-09-29,264
+Santa Catarina,2020-09-29,1195
+São Paulo,2020-09-29,6377
+Sergipe,2020-09-29,108
+Tocantins,2020-09-29,1138
+Acre,2020-09-30,192
+Alagoas,2020-09-30,330
+Amapá,2020-09-30,200
+Amazonas,2020-09-30,1362
+Bahia,2020-09-30,2274
+Ceará,2020-09-30,1020
+Distrito Federal,2020-09-30,928
+Espirito Santo,2020-09-30,776
+Goiás,2020-09-30,3381
+Maranhão,2020-09-30,719
+Mato Grosso,2020-09-30,948
+Mato Grosso do Sul,2020-09-30,533
+Minas Gerais,2020-09-30,2878
+Pará,2020-09-30,1294
+Paraíba,2020-09-30,613
+Paraná,2020-09-30,1600
+Pernambuco,2020-09-30,846
+Piauí,2020-09-30,763
+Rio de Janeiro,2020-09-30,1084
+Rio Grande do Norte,2020-09-30,282
+Rio Grande do Sul,2020-09-30,2319
+Rondônia,2020-09-30,238
+Roraima,2020-09-30,232
+Santa Catarina,2020-09-30,1217
+São Paulo,2020-09-30,6109
+Sergipe,2020-09-30,160
+Tocantins,2020-09-30,603

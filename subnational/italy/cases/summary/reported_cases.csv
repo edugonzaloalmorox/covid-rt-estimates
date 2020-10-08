@@ -1,445 +1,4 @@
 region,date,confirm
-Abruzzo,2020-06-21,0
-Basilicata,2020-06-21,0
-Calabria,2020-06-21,6
-Campania,2020-06-21,2
-Emilia-Romagna,2020-06-21,23
-Friuli Venezia Giulia,2020-06-21,1
-Lazio,2020-06-21,8
-Liguria,2020-06-21,7
-Lombardia,2020-06-21,128
-Marche,2020-06-21,0
-Molise,2020-06-21,0
-Piemonte,2020-06-21,26
-Puglia,2020-06-21,2
-Sardegna,2020-06-21,0
-Sicilia,2020-06-21,2
-Toscana,2020-06-21,3
-Trentino-Alto Adige,2020-06-21,9
-Trentino-Alto Adige,2020-06-21,0
-Umbria,2020-06-21,0
-Valle d'Aosta,2020-06-21,0
-Veneto,2020-06-21,7
-Abruzzo,2020-06-22,1
-Basilicata,2020-06-22,0
-Calabria,2020-06-22,1
-Campania,2020-06-22,7
-Emilia-Romagna,2020-06-22,22
-Friuli Venezia Giulia,2020-06-22,0
-Lazio,2020-06-22,8
-Liguria,2020-06-22,8
-Lombardia,2020-06-22,143
-Marche,2020-06-22,6
-Molise,2020-06-22,3
-Piemonte,2020-06-22,7
-Puglia,2020-06-22,0
-Sardegna,2020-06-22,0
-Sicilia,2020-06-22,0
-Toscana,2020-06-22,1
-Trentino-Alto Adige,2020-06-22,12
-Trentino-Alto Adige,2020-06-22,0
-Umbria,2020-06-22,0
-Valle d'Aosta,2020-06-22,0
-Veneto,2020-06-22,2
-Abruzzo,2020-06-23,0
-Basilicata,2020-06-23,0
-Calabria,2020-06-23,1
-Campania,2020-06-23,10
-Emilia-Romagna,2020-06-23,17
-Friuli Venezia Giulia,2020-06-23,0
-Lazio,2020-06-23,8
-Liguria,2020-06-23,4
-Lombardia,2020-06-23,62
-Marche,2020-06-23,1
-Molise,2020-06-23,0
-Piemonte,2020-06-23,6
-Puglia,2020-06-23,2
-Sardegna,2020-06-23,0
-Sicilia,2020-06-23,1
-Toscana,2020-06-23,6
-Trentino-Alto Adige,2020-06-23,1
-Trentino-Alto Adige,2020-06-23,0
-Umbria,2020-06-23,0
-Valle d'Aosta,2020-06-23,0
-Veneto,2020-06-23,3
-Abruzzo,2020-06-24,1
-Basilicata,2020-06-24,0
-Calabria,2020-06-24,0
-Campania,2020-06-24,11
-Emilia-Romagna,2020-06-24,44
-Friuli Venezia Giulia,2020-06-24,0
-Lazio,2020-06-24,6
-Liguria,2020-06-24,1
-Lombardia,2020-06-24,88
-Marche,2020-06-24,4
-Molise,2020-06-24,0
-Piemonte,2020-06-24,22
-Puglia,2020-06-24,0
-Sardegna,2020-06-24,1
-Sicilia,2020-06-24,1
-Toscana,2020-06-24,5
-Trentino-Alto Adige,2020-06-24,388
-Trentino-Alto Adige,2020-06-24,0
-Umbria,2020-06-24,1
-Valle d'Aosta,2020-06-24,1
-Veneto,2020-06-24,3
-Abruzzo,2020-06-25,1
-Basilicata,2020-06-25,0
-Calabria,2020-06-25,0
-Campania,2020-06-25,17
-Emilia-Romagna,2020-06-25,47
-Friuli Venezia Giulia,2020-06-25,0
-Lazio,2020-06-25,12
-Liguria,2020-06-25,14
-Lombardia,2020-06-25,170
-Marche,2020-06-25,2
-Molise,2020-06-25,0
-Piemonte,2020-06-25,20
-Puglia,2020-06-25,1
-Sardegna,2020-06-25,1
-Sicilia,2020-06-25,2
-Toscana,2020-06-25,2
-Trentino-Alto Adige,2020-06-25,3
-Trentino-Alto Adige,2020-06-25,0
-Umbria,2020-06-25,0
-Valle d'Aosta,2020-06-25,0
-Veneto,2020-06-25,4
-Abruzzo,2020-06-26,1
-Basilicata,2020-06-26,0
-Calabria,2020-06-26,3
-Campania,2020-06-26,3
-Emilia-Romagna,2020-06-26,42
-Friuli Venezia Giulia,2020-06-26,2
-Lazio,2020-06-26,13
-Liguria,2020-06-26,4
-Lombardia,2020-06-26,156
-Marche,2020-06-26,2
-Molise,2020-06-26,1
-Piemonte,2020-06-26,15
-Puglia,2020-06-26,1
-Sardegna,2020-06-26,0
-Sicilia,2020-06-26,0
-Toscana,2020-06-26,2
-Trentino-Alto Adige,2020-06-26,4
-Trentino-Alto Adige,2020-06-26,0
-Umbria,2020-06-26,1
-Valle d'Aosta,2020-06-26,0
-Veneto,2020-06-26,5
-Abruzzo,2020-06-27,0
-Basilicata,2020-06-27,0
-Calabria,2020-06-27,1
-Campania,2020-06-27,0
-Emilia-Romagna,2020-06-27,42
-Friuli Venezia Giulia,2020-06-27,0
-Lazio,2020-06-27,18
-Liguria,2020-06-27,5
-Lombardia,2020-06-27,77
-Marche,2020-06-27,2
-Molise,2020-06-27,0
-Piemonte,2020-06-27,11
-Puglia,2020-06-27,0
-Sardegna,2020-06-27,1
-Sicilia,2020-06-27,1
-Toscana,2020-06-27,12
-Trentino-Alto Adige,2020-06-27,3
-Trentino-Alto Adige,2020-06-27,0
-Umbria,2020-06-27,0
-Valle d'Aosta,2020-06-27,0
-Veneto,2020-06-27,2
-Abruzzo,2020-06-28,1
-Basilicata,2020-06-28,0
-Calabria,2020-06-28,1
-Campania,2020-06-28,0
-Emilia-Romagna,2020-06-28,21
-Friuli Venezia Giulia,2020-06-28,1
-Lazio,2020-06-28,14
-Liguria,2020-06-28,4
-Lombardia,2020-06-28,97
-Marche,2020-06-28,0
-Molise,2020-06-28,0
-Piemonte,2020-06-28,14
-Puglia,2020-06-28,0
-Sardegna,2020-06-28,1
-Sicilia,2020-06-28,0
-Toscana,2020-06-28,5
-Trentino-Alto Adige,2020-06-28,4
-Trentino-Alto Adige,2020-06-28,0
-Umbria,2020-06-28,0
-Valle d'Aosta,2020-06-28,0
-Veneto,2020-06-28,11
-Abruzzo,2020-06-29,1
-Basilicata,2020-06-29,1
-Calabria,2020-06-29,0
-Campania,2020-06-29,1
-Emilia-Romagna,2020-06-29,16
-Friuli Venezia Giulia,2020-06-29,0
-Lazio,2020-06-29,9
-Liguria,2020-06-29,7
-Lombardia,2020-06-29,78
-Marche,2020-06-29,0
-Molise,2020-06-29,0
-Piemonte,2020-06-29,2
-Puglia,2020-06-29,0
-Sardegna,2020-06-29,0
-Sicilia,2020-06-29,1
-Toscana,2020-06-29,5
-Trentino-Alto Adige,2020-06-29,2
-Trentino-Alto Adige,2020-06-29,0
-Umbria,2020-06-29,0
-Valle d'Aosta,2020-06-29,0
-Veneto,2020-06-29,3
-Abruzzo,2020-06-30,0
-Basilicata,2020-06-30,0
-Calabria,2020-06-30,1
-Campania,2020-06-30,24
-Emilia-Romagna,2020-06-30,20
-Friuli Venezia Giulia,2020-06-30,0
-Lazio,2020-06-30,5
-Liguria,2020-06-30,3
-Lombardia,2020-06-30,62
-Marche,2020-06-30,0
-Molise,2020-06-30,0
-Piemonte,2020-06-30,11
-Puglia,2020-06-30,0
-Sardegna,2020-06-30,2
-Sicilia,2020-06-30,2
-Toscana,2020-06-30,2
-Trentino-Alto Adige,2020-06-30,0
-Trentino-Alto Adige,2020-06-30,0
-Umbria,2020-06-30,1
-Valle d'Aosta,2020-06-30,1
-Veneto,2020-06-30,8
-Abruzzo,2020-07-01,2
-Basilicata,2020-07-01,0
-Calabria,2020-07-01,0
-Campania,2020-07-01,9
-Emilia-Romagna,2020-07-01,16
-Friuli Venezia Giulia,2020-07-01,4
-Lazio,2020-07-01,9
-Liguria,2020-07-01,5
-Lombardia,2020-07-01,109
-Marche,2020-07-01,1
-Molise,2020-07-01,0
-Piemonte,2020-07-01,16
-Puglia,2020-07-01,0
-Sardegna,2020-07-01,0
-Sicilia,2020-07-01,1
-Toscana,2020-07-01,4
-Trentino-Alto Adige,2020-07-01,4
-Trentino-Alto Adige,2020-07-01,0
-Umbria,2020-07-01,0
-Valle d'Aosta,2020-07-01,0
-Veneto,2020-07-01,3
-Abruzzo,2020-07-02,3
-Basilicata,2020-07-02,0
-Calabria,2020-07-02,0
-Campania,2020-07-02,3
-Emilia-Romagna,2020-07-02,27
-Friuli Venezia Giulia,2020-07-02,2
-Lazio,2020-07-02,11
-Liguria,2020-07-02,2
-Lombardia,2020-07-02,98
-Marche,2020-07-02,3
-Molise,2020-07-02,0
-Piemonte,2020-07-02,13
-Puglia,2020-07-02,0
-Sardegna,2020-07-02,2
-Sicilia,2020-07-02,9
-Toscana,2020-07-02,4
-Trentino-Alto Adige,2020-07-02,1
-Trentino-Alto Adige,2020-07-02,0
-Umbria,2020-07-02,3
-Valle d'Aosta,2020-07-02,0
-Veneto,2020-07-02,20
-Abruzzo,2020-07-03,6
-Basilicata,2020-07-03,2
-Calabria,2020-07-03,1
-Campania,2020-07-03,10
-Emilia-Romagna,2020-07-03,27
-Friuli Venezia Giulia,2020-07-03,4
-Lazio,2020-07-03,11
-Liguria,2020-07-03,3
-Lombardia,2020-07-03,115
-Marche,2020-07-03,0
-Molise,2020-07-03,0
-Piemonte,2020-07-03,16
-Puglia,2020-07-03,3
-Sardegna,2020-07-03,1
-Sicilia,2020-07-03,1
-Toscana,2020-07-03,9
-Trentino-Alto Adige,2020-07-03,6
-Trentino-Alto Adige,2020-07-03,0
-Umbria,2020-07-03,2
-Valle d'Aosta,2020-07-03,1
-Veneto,2020-07-03,5
-Abruzzo,2020-07-04,7
-Basilicata,2020-07-04,0
-Calabria,2020-07-04,1
-Campania,2020-07-04,2
-Emilia-Romagna,2020-07-04,51
-Friuli Venezia Giulia,2020-07-04,8
-Lazio,2020-07-04,31
-Liguria,2020-07-04,4
-Lombardia,2020-07-04,95
-Marche,2020-07-04,0
-Molise,2020-07-04,0
-Piemonte,2020-07-04,11
-Puglia,2020-07-04,3
-Sardegna,2020-07-04,0
-Sicilia,2020-07-04,3
-Toscana,2020-07-04,9
-Trentino-Alto Adige,2020-07-04,5
-Trentino-Alto Adige,2020-07-04,0
-Umbria,2020-07-04,1
-Valle d'Aosta,2020-07-04,0
-Veneto,2020-07-04,4
-Abruzzo,2020-07-05,4
-Basilicata,2020-07-05,0
-Calabria,2020-07-05,0
-Campania,2020-07-05,5
-Emilia-Romagna,2020-07-05,24
-Friuli Venezia Giulia,2020-07-05,0
-Lazio,2020-07-05,14
-Liguria,2020-07-05,8
-Lombardia,2020-07-05,98
-Marche,2020-07-05,1
-Molise,2020-07-05,0
-Piemonte,2020-07-05,18
-Puglia,2020-07-05,0
-Sardegna,2020-07-05,1
-Sicilia,2020-07-05,0
-Toscana,2020-07-05,9
-Trentino-Alto Adige,2020-07-05,2
-Trentino-Alto Adige,2020-07-05,0
-Umbria,2020-07-05,0
-Valle d'Aosta,2020-07-05,0
-Veneto,2020-07-05,8
-Abruzzo,2020-07-06,0
-Basilicata,2020-07-06,0
-Calabria,2020-07-06,0
-Campania,2020-07-06,27
-Emilia-Romagna,2020-07-06,38
-Friuli Venezia Giulia,2020-07-06,0
-Lazio,2020-07-06,19
-Liguria,2020-07-06,2
-Lombardia,2020-07-06,111
-Marche,2020-07-06,0
-Molise,2020-07-06,0
-Piemonte,2020-07-06,6
-Puglia,2020-07-06,0
-Sardegna,2020-07-06,1
-Sicilia,2020-07-06,1
-Toscana,2020-07-06,2
-Trentino-Alto Adige,2020-07-06,0
-Trentino-Alto Adige,2020-07-06,0
-Umbria,2020-07-06,0
-Valle d'Aosta,2020-07-06,0
-Veneto,2020-07-06,1
-Abruzzo,2020-07-07,0
-Basilicata,2020-07-07,0
-Calabria,2020-07-07,1
-Campania,2020-07-07,1
-Emilia-Romagna,2020-07-07,31
-Friuli Venezia Giulia,2020-07-07,1
-Lazio,2020-07-07,5
-Liguria,2020-07-07,2
-Lombardia,2020-07-07,53
-Marche,2020-07-07,1
-Molise,2020-07-07,0
-Piemonte,2020-07-07,5
-Puglia,2020-07-07,0
-Sardegna,2020-07-07,0
-Sicilia,2020-07-07,1
-Toscana,2020-07-07,19
-Trentino-Alto Adige,2020-07-07,4
-Trentino-Alto Adige,2020-07-07,0
-Umbria,2020-07-07,0
-Valle d'Aosta,2020-07-07,0
-Veneto,2020-07-07,14
-Abruzzo,2020-07-08,1
-Basilicata,2020-07-08,1
-Calabria,2020-07-08,1
-Campania,2020-07-08,3
-Emilia-Romagna,2020-07-08,49
-Friuli Venezia Giulia,2020-07-08,4
-Lazio,2020-07-08,14
-Liguria,2020-07-08,3
-Lombardia,2020-07-08,71
-Marche,2020-07-08,3
-Molise,2020-07-08,0
-Piemonte,2020-07-08,25
-Puglia,2020-07-08,1
-Sardegna,2020-07-08,0
-Sicilia,2020-07-08,1
-Toscana,2020-07-08,7
-Trentino-Alto Adige,2020-07-08,2
-Trentino-Alto Adige,2020-07-08,0
-Umbria,2020-07-08,0
-Valle d'Aosta,2020-07-08,0
-Veneto,2020-07-08,7
-Abruzzo,2020-07-09,8
-Basilicata,2020-07-09,0
-Calabria,2020-07-09,0
-Campania,2020-07-09,5
-Emilia-Romagna,2020-07-09,14
-Friuli Venezia Giulia,2020-07-09,1
-Lazio,2020-07-09,28
-Liguria,2020-07-09,4
-Lombardia,2020-07-09,119
-Marche,2020-07-09,4
-Molise,2020-07-09,0
-Piemonte,2020-07-09,16
-Puglia,2020-07-09,0
-Sardegna,2020-07-09,0
-Sicilia,2020-07-09,1
-Toscana,2020-07-09,1
-Trentino-Alto Adige,2020-07-09,3
-Trentino-Alto Adige,2020-07-09,0
-Umbria,2020-07-09,0
-Valle d'Aosta,2020-07-09,0
-Veneto,2020-07-09,10
-Abruzzo,2020-07-10,3
-Basilicata,2020-07-10,0
-Calabria,2020-07-10,1
-Campania,2020-07-10,7
-Emilia-Romagna,2020-07-10,53
-Friuli Venezia Giulia,2020-07-10,1
-Lazio,2020-07-10,23
-Liguria,2020-07-10,15
-Lombardia,2020-07-10,135
-Marche,2020-07-10,1
-Molise,2020-07-10,0
-Piemonte,2020-07-10,10
-Puglia,2020-07-10,4
-Sardegna,2020-07-10,1
-Sicilia,2020-07-10,0
-Toscana,2020-07-10,2
-Trentino-Alto Adige,2020-07-10,8
-Trentino-Alto Adige,2020-07-10,0
-Umbria,2020-07-10,1
-Valle d'Aosta,2020-07-10,0
-Veneto,2020-07-10,11
-Abruzzo,2020-07-11,2
-Basilicata,2020-07-11,1
-Calabria,2020-07-11,2
-Campania,2020-07-11,7
-Emilia-Romagna,2020-07-11,47
-Friuli Venezia Giulia,2020-07-11,2
-Lazio,2020-07-11,19
-Liguria,2020-07-11,6
-Lombardia,2020-07-11,67
-Marche,2020-07-11,4
-Molise,2020-07-11,0
-Piemonte,2020-07-11,9
-Puglia,2020-07-11,1
-Sardegna,2020-07-11,0
-Sicilia,2020-07-11,1
-Toscana,2020-07-11,5
-Trentino-Alto Adige,2020-07-11,5
-Trentino-Alto Adige,2020-07-11,0
-Umbria,2020-07-11,0
-Valle d'Aosta,2020-07-11,0
-Veneto,2020-07-11,10
 Abruzzo,2020-07-12,5
 Basilicata,2020-07-12,0
 Calabria,2020-07-12,28
@@ -1784,3 +1343,444 @@ Trentino-Alto Adige,2020-09-13,0
 Umbria,2020-09-13,24
 Valle d'Aosta,2020-09-13,2
 Veneto,2020-09-13,142
+Abruzzo,2020-09-14,1
+Basilicata,2020-09-14,0
+Calabria,2020-09-14,3
+Campania,2020-09-14,90
+Emilia-Romagna,2020-09-14,127
+Friuli Venezia Giulia,2020-09-14,4
+Lazio,2020-09-14,181
+Liguria,2020-09-14,65
+Lombardia,2020-09-14,125
+Marche,2020-09-14,11
+Molise,2020-09-14,4
+Piemonte,2020-09-14,61
+Puglia,2020-09-14,61
+Sardegna,2020-09-14,54
+Sicilia,2020-09-14,65
+Toscana,2020-09-14,59
+Trentino-Alto Adige,2020-09-14,27
+Trentino-Alto Adige,2020-09-14,0
+Umbria,2020-09-14,12
+Valle d'Aosta,2020-09-14,3
+Veneto,2020-09-14,55
+Abruzzo,2020-09-15,18
+Basilicata,2020-09-15,5
+Calabria,2020-09-15,4
+Campania,2020-09-15,136
+Emilia-Romagna,2020-09-15,125
+Friuli Venezia Giulia,2020-09-15,20
+Lazio,2020-09-15,139
+Liguria,2020-09-15,141
+Lombardia,2020-09-15,176
+Marche,2020-09-15,14
+Molise,2020-09-15,1
+Piemonte,2020-09-15,39
+Puglia,2020-09-15,76
+Sardegna,2020-09-15,36
+Sicilia,2020-09-15,77
+Toscana,2020-09-15,41
+Trentino-Alto Adige,2020-09-15,41
+Trentino-Alto Adige,2020-09-15,0
+Umbria,2020-09-15,22
+Valle d'Aosta,2020-09-15,3
+Veneto,2020-09-15,115
+Abruzzo,2020-09-16,18
+Basilicata,2020-09-16,5
+Calabria,2020-09-16,19
+Campania,2020-09-16,186
+Emilia-Romagna,2020-09-16,106
+Friuli Venezia Giulia,2020-09-16,29
+Lazio,2020-09-16,165
+Liguria,2020-09-16,73
+Lombardia,2020-09-16,159
+Marche,2020-09-16,38
+Molise,2020-09-16,6
+Piemonte,2020-09-16,117
+Puglia,2020-09-16,103
+Sardegna,2020-09-16,27
+Sicilia,2020-09-16,90
+Toscana,2020-09-16,90
+Trentino-Alto Adige,2020-09-16,44
+Trentino-Alto Adige,2020-09-16,0
+Umbria,2020-09-16,17
+Valle d'Aosta,2020-09-16,1
+Veneto,2020-09-16,159
+Abruzzo,2020-09-17,31
+Basilicata,2020-09-17,5
+Calabria,2020-09-17,16
+Campania,2020-09-17,195
+Emilia-Romagna,2020-09-17,110
+Friuli Venezia Giulia,2020-09-17,63
+Lazio,2020-09-17,181
+Liguria,2020-09-17,40
+Lombardia,2020-09-17,281
+Marche,2020-09-17,37
+Molise,2020-09-17,2
+Piemonte,2020-09-17,70
+Puglia,2020-09-17,63
+Sardegna,2020-09-17,51
+Sicilia,2020-09-17,96
+Toscana,2020-09-17,119
+Trentino-Alto Adige,2020-09-17,91
+Trentino-Alto Adige,2020-09-17,0
+Umbria,2020-09-17,22
+Valle d'Aosta,2020-09-17,1
+Veneto,2020-09-17,109
+Abruzzo,2020-09-18,54
+Basilicata,2020-09-18,0
+Calabria,2020-09-18,28
+Campania,2020-09-18,208
+Emilia-Romagna,2020-09-18,121
+Friuli Venezia Giulia,2020-09-18,39
+Lazio,2020-09-18,193
+Liguria,2020-09-18,158
+Lombardia,2020-09-18,224
+Marche,2020-09-18,29
+Molise,2020-09-18,3
+Piemonte,2020-09-18,127
+Puglia,2020-09-18,84
+Sardegna,2020-09-18,66
+Sicilia,2020-09-18,179
+Toscana,2020-09-18,99
+Trentino-Alto Adige,2020-09-18,90
+Trentino-Alto Adige,2020-09-18,0
+Umbria,2020-09-18,21
+Valle d'Aosta,2020-09-18,8
+Veneto,2020-09-18,176
+Abruzzo,2020-09-19,0
+Basilicata,2020-09-19,3
+Calabria,2020-09-19,25
+Campania,2020-09-19,149
+Emilia-Romagna,2020-09-19,132
+Friuli Venezia Giulia,2020-09-19,33
+Lazio,2020-09-19,197
+Liguria,2020-09-19,78
+Lombardia,2020-09-19,243
+Marche,2020-09-19,24
+Molise,2020-09-19,5
+Piemonte,2020-09-19,74
+Puglia,2020-09-19,108
+Sardegna,2020-09-19,59
+Sicilia,2020-09-19,98
+Toscana,2020-09-19,143
+Trentino-Alto Adige,2020-09-19,48
+Trentino-Alto Adige,2020-09-19,0
+Umbria,2020-09-19,32
+Valle d'Aosta,2020-09-19,0
+Veneto,2020-09-19,186
+Abruzzo,2020-09-20,0
+Basilicata,2020-09-20,6
+Calabria,2020-09-20,22
+Campania,2020-09-20,171
+Emilia-Romagna,2020-09-20,115
+Friuli Venezia Giulia,2020-09-20,32
+Lazio,2020-09-20,165
+Liguria,2020-09-20,85
+Lombardia,2020-09-20,211
+Marche,2020-09-20,31
+Molise,2020-09-20,1
+Piemonte,2020-09-20,98
+Puglia,2020-09-20,50
+Sardegna,2020-09-20,72
+Sicilia,2020-09-20,116
+Toscana,2020-09-20,147
+Trentino-Alto Adige,2020-09-20,65
+Trentino-Alto Adige,2020-09-20,0
+Umbria,2020-09-20,24
+Valle d'Aosta,2020-09-20,3
+Veneto,2020-09-20,173
+Abruzzo,2020-09-21,72
+Basilicata,2020-09-21,1
+Calabria,2020-09-21,12
+Campania,2020-09-21,243
+Emilia-Romagna,2020-09-21,116
+Friuli Venezia Giulia,2020-09-21,13
+Lazio,2020-09-21,198
+Liguria,2020-09-21,64
+Lombardia,2020-09-21,90
+Marche,2020-09-21,17
+Molise,2020-09-21,31
+Piemonte,2020-09-21,57
+Puglia,2020-09-21,81
+Sardegna,2020-09-21,64
+Sicilia,2020-09-21,75
+Toscana,2020-09-21,84
+Trentino-Alto Adige,2020-09-21,22
+Trentino-Alto Adige,2020-09-21,0
+Umbria,2020-09-21,5
+Valle d'Aosta,2020-09-21,2
+Veneto,2020-09-21,103
+Abruzzo,2020-09-22,18
+Basilicata,2020-09-22,14
+Calabria,2020-09-22,24
+Campania,2020-09-22,156
+Emilia-Romagna,2020-09-22,55
+Friuli Venezia Giulia,2020-09-22,14
+Lazio,2020-09-22,238
+Liguria,2020-09-22,105
+Lombardia,2020-09-22,182
+Marche,2020-09-22,18
+Molise,2020-09-22,2
+Piemonte,2020-09-22,84
+Puglia,2020-09-22,67
+Sardegna,2020-09-22,53
+Sicilia,2020-09-22,108
+Toscana,2020-09-22,74
+Trentino-Alto Adige,2020-09-22,33
+Trentino-Alto Adige,2020-09-22,0
+Umbria,2020-09-22,26
+Valle d'Aosta,2020-09-22,1
+Veneto,2020-09-22,119
+Abruzzo,2020-09-23,22
+Basilicata,2020-09-23,17
+Calabria,2020-09-23,19
+Campania,2020-09-23,248
+Emilia-Romagna,2020-09-23,101
+Friuli Venezia Giulia,2020-09-23,57
+Lazio,2020-09-23,195
+Liguria,2020-09-23,108
+Lombardia,2020-09-23,196
+Marche,2020-09-23,32
+Molise,2020-09-23,3
+Piemonte,2020-09-23,95
+Puglia,2020-09-23,89
+Sardegna,2020-09-23,49
+Sicilia,2020-09-23,89
+Toscana,2020-09-23,90
+Trentino-Alto Adige,2020-09-23,59
+Trentino-Alto Adige,2020-09-23,0
+Umbria,2020-09-23,19
+Valle d'Aosta,2020-09-23,2
+Veneto,2020-09-23,150
+Abruzzo,2020-09-24,17
+Basilicata,2020-09-24,9
+Calabria,2020-09-24,9
+Campania,2020-09-24,195
+Emilia-Romagna,2020-09-24,99
+Friuli Venezia Giulia,2020-09-24,28
+Lazio,2020-09-24,230
+Liguria,2020-09-24,102
+Lombardia,2020-09-24,229
+Marche,2020-09-24,17
+Molise,2020-09-24,4
+Piemonte,2020-09-24,104
+Puglia,2020-09-24,73
+Sardegna,2020-09-24,66
+Sicilia,2020-09-24,125
+Toscana,2020-09-24,156
+Trentino-Alto Adige,2020-09-24,43
+Trentino-Alto Adige,2020-09-24,0
+Umbria,2020-09-24,29
+Valle d'Aosta,2020-09-24,3
+Veneto,2020-09-24,248
+Abruzzo,2020-09-25,51
+Basilicata,2020-09-25,13
+Calabria,2020-09-25,10
+Campania,2020-09-25,253
+Emilia-Romagna,2020-09-25,122
+Friuli Venezia Giulia,2020-09-25,37
+Lazio,2020-09-25,230
+Liguria,2020-09-25,73
+Lombardia,2020-09-25,277
+Marche,2020-09-25,33
+Molise,2020-09-25,5
+Piemonte,2020-09-25,120
+Puglia,2020-09-25,90
+Sardegna,2020-09-25,57
+Sicilia,2020-09-25,107
+Toscana,2020-09-25,139
+Trentino-Alto Adige,2020-09-25,75
+Trentino-Alto Adige,2020-09-25,0
+Umbria,2020-09-25,23
+Valle d'Aosta,2020-09-25,1
+Veneto,2020-09-25,196
+Abruzzo,2020-09-26,16
+Basilicata,2020-09-26,25
+Calabria,2020-09-26,15
+Campania,2020-09-26,274
+Emilia-Romagna,2020-09-26,99
+Friuli Venezia Giulia,2020-09-26,54
+Lazio,2020-09-26,219
+Liguria,2020-09-26,97
+Lombardia,2020-09-26,256
+Marche,2020-09-26,26
+Molise,2020-09-26,5
+Piemonte,2020-09-26,107
+Puglia,2020-09-26,51
+Sardegna,2020-09-26,63
+Sicilia,2020-09-26,110
+Toscana,2020-09-26,110
+Trentino-Alto Adige,2020-09-26,80
+Trentino-Alto Adige,2020-09-26,0
+Umbria,2020-09-26,35
+Valle d'Aosta,2020-09-26,11
+Veneto,2020-09-26,216
+Abruzzo,2020-09-27,47
+Basilicata,2020-09-27,47
+Calabria,2020-09-27,31
+Campania,2020-09-27,245
+Emilia-Romagna,2020-09-27,96
+Friuli Venezia Giulia,2020-09-27,28
+Lazio,2020-09-27,181
+Liguria,2020-09-27,45
+Lombardia,2020-09-27,216
+Marche,2020-09-27,24
+Molise,2020-09-27,7
+Piemonte,2020-09-27,132
+Puglia,2020-09-27,76
+Sardegna,2020-09-27,139
+Sicilia,2020-09-27,107
+Toscana,2020-09-27,101
+Trentino-Alto Adige,2020-09-27,64
+Trentino-Alto Adige,2020-09-27,0
+Umbria,2020-09-27,21
+Valle d'Aosta,2020-09-27,0
+Veneto,2020-09-27,159
+Abruzzo,2020-09-28,4
+Basilicata,2020-09-28,7
+Calabria,2020-09-28,5
+Campania,2020-09-28,295
+Emilia-Romagna,2020-09-28,85
+Friuli Venezia Giulia,2020-09-28,2
+Lazio,2020-09-28,211
+Liguria,2020-09-28,109
+Lombardia,2020-09-28,119
+Marche,2020-09-28,5
+Molise,2020-09-28,4
+Piemonte,2020-09-28,94
+Puglia,2020-09-28,90
+Sardegna,2020-09-28,37
+Sicilia,2020-09-28,102
+Toscana,2020-09-28,85
+Trentino-Alto Adige,2020-09-28,45
+Trentino-Alto Adige,2020-09-28,0
+Umbria,2020-09-28,11
+Valle d'Aosta,2020-09-28,1
+Veneto,2020-09-28,183
+Abruzzo,2020-09-29,13
+Basilicata,2020-09-29,6
+Calabria,2020-09-29,10
+Campania,2020-09-29,286
+Emilia-Romagna,2020-09-29,97
+Friuli Venezia Giulia,2020-09-29,28
+Lazio,2020-09-29,219
+Liguria,2020-09-29,89
+Lombardia,2020-09-29,203
+Marche,2020-09-29,26
+Molise,2020-09-29,1
+Piemonte,2020-09-29,100
+Puglia,2020-09-29,76
+Sardegna,2020-09-29,82
+Sicilia,2020-09-29,163
+Toscana,2020-09-29,56
+Trentino-Alto Adige,2020-09-29,21
+Trentino-Alto Adige,2020-09-29,0
+Umbria,2020-09-29,23
+Valle d'Aosta,2020-09-29,8
+Veneto,2020-09-29,140
+Abruzzo,2020-09-30,22
+Basilicata,2020-09-30,32
+Calabria,2020-09-30,18
+Campania,2020-09-30,287
+Emilia-Romagna,2020-09-30,101
+Friuli Venezia Giulia,2020-09-30,28
+Lazio,2020-09-30,210
+Liguria,2020-09-30,51
+Lombardia,2020-09-30,201
+Marche,2020-09-30,23
+Molise,2020-09-30,6
+Piemonte,2020-09-30,170
+Puglia,2020-09-30,99
+Sardegna,2020-09-30,51
+Sicilia,2020-09-30,170
+Toscana,2020-09-30,120
+Trentino-Alto Adige,2020-09-30,54
+Trentino-Alto Adige,2020-09-30,0
+Umbria,2020-09-30,46
+Valle d'Aosta,2020-09-30,6
+Veneto,2020-09-30,155
+Abruzzo,2020-10-01,30
+Basilicata,2020-10-01,33
+Calabria,2020-10-01,17
+Campania,2020-10-01,390
+Emilia-Romagna,2020-10-01,103
+Friuli Venezia Giulia,2020-10-01,57
+Lazio,2020-10-01,265
+Liguria,2020-10-01,111
+Lombardia,2020-10-01,324
+Marche,2020-10-01,28
+Molise,2020-10-01,1
+Piemonte,2020-10-01,110
+Puglia,2020-10-01,114
+Sardegna,2020-10-01,96
+Sicilia,2020-10-01,156
+Toscana,2020-10-01,144
+Trentino-Alto Adige,2020-10-01,77
+Trentino-Alto Adige,2020-10-01,0
+Umbria,2020-10-01,46
+Valle d'Aosta,2020-10-01,1
+Veneto,2020-10-01,445
+Abruzzo,2020-10-02,49
+Basilicata,2020-10-02,16
+Calabria,2020-10-02,18
+Campania,2020-10-02,392
+Emilia-Romagna,2020-10-02,163
+Friuli Venezia Giulia,2020-10-02,66
+Lazio,2020-10-02,264
+Liguria,2020-10-02,140
+Lombardia,2020-10-02,307
+Marche,2020-10-02,42
+Molise,2020-10-02,4
+Piemonte,2020-10-02,219
+Puglia,2020-10-02,72
+Sardegna,2020-10-02,60
+Sicilia,2020-10-02,140
+Toscana,2020-10-02,223
+Trentino-Alto Adige,2020-10-02,60
+Trentino-Alto Adige,2020-10-02,0
+Umbria,2020-10-02,62
+Valle d'Aosta,2020-10-02,11
+Veneto,2020-10-02,191
+Abruzzo,2020-10-03,42
+Basilicata,2020-10-03,49
+Calabria,2020-10-03,24
+Campania,2020-10-03,401
+Emilia-Romagna,2020-10-03,166
+Friuli Venezia Giulia,2020-10-03,51
+Lazio,2020-10-03,261
+Liguria,2020-10-03,162
+Lombardia,2020-10-03,393
+Marche,2020-10-03,59
+Molise,2020-10-03,0
+Piemonte,2020-10-03,279
+Puglia,2020-10-03,111
+Sardegna,2020-10-03,62
+Sicilia,2020-10-03,182
+Toscana,2020-10-03,197
+Trentino-Alto Adige,2020-10-03,86
+Trentino-Alto Adige,2020-10-03,0
+Umbria,2020-10-03,42
+Valle d'Aosta,2020-10-03,0
+Veneto,2020-10-03,276
+Abruzzo,2020-10-04,37
+Basilicata,2020-10-04,14
+Calabria,2020-10-04,19
+Campania,2020-10-04,412
+Emilia-Romagna,2020-10-04,179
+Friuli Venezia Giulia,2020-10-04,50
+Lazio,2020-10-04,244
+Liguria,2020-10-04,121
+Lombardia,2020-10-04,314
+Marche,2020-10-04,59
+Molise,2020-10-04,15
+Piemonte,2020-10-04,173
+Puglia,2020-10-04,151
+Sardegna,2020-10-04,111
+Sicilia,2020-10-04,85
+Toscana,2020-10-04,188
+Trentino-Alto Adige,2020-10-04,66
+Trentino-Alto Adige,2020-10-04,0
+Umbria,2020-10-04,72
+Valle d'Aosta,2020-10-04,7
+Veneto,2020-10-04,261
