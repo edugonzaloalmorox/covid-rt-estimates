@@ -377,6 +377,7 @@ if (sys.nframe() == 0) {
     DATA_DIR <- "data/results"
   }else{
     futile.logger::flog.trace("outputting results to root folder")
+    lifecycle::deprecate_soft("please switch to using -d and getting your data from the data/results folder. This will switch to being the default behaviour in the future")
   }
   # Pull in the definition of the datasets after we have had the chance to
   source(here::here("R", "dataset-list.R"))

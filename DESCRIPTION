@@ -28,6 +28,7 @@ Imports:
   futile.logger (>= 1.4),
   future,
   here,
+  lifecycle,
   lubridate,
   optparse,
   R6 (>= 2.4),
