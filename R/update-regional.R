@@ -85,7 +85,7 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
   cases <- clean_regional_data(cases)
 
   # Check to see if there is data and if the data has been updated  ------------------------------
-  if (cases[, .N] > 0 && (force || check_for_update(cases, last_run = here::here("last-update", paste0(location$name, ".rds"))))) {
+  if (cases[, .N] > 0 && (force || check_for_update(cases, last_run = here::here("data/runtime/last-update", paste0(location$name, ".rds"))))) {
     # Set up cores -----------------------------------------------------
     no_cores <- setup_future(length(unique(cases$region)))
 

@@ -100,7 +100,7 @@ rru_log_outcome <- function(outcome) {
   # outcome should be:
   # dataset:
   #     subregion : time / inf / null (good, timed out, failed)
-  filename <- "runtimes.csv"
+  filename <- "data/runtime/runtimes.csv"
   futile.logger::flog.info("processing outcome log")
   if (file.exists(filename)) {
     futile.logger::flog.trace("loading the existing file")
