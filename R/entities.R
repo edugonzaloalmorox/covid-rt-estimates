@@ -34,11 +34,12 @@ SuperRegion <- R6Class("SuperRegion",
                                        self$reporting_delay <- reporting_delay
                                        self$region_scale <- region_scale
                                        self$stable <- stable
+                                       root_dir <- ifelse(exists("DATA_DIR"), paste0(DATA_DIR, "/"), "")
                                        highest_folder <- ifelse(region_scale == "Country", "national/", "region/")
                                        middle_folder <- ifelse(is.na(folder_name), name, folder_name)
                                        tail_target_folder <- ifelse(region_scale == "Country", "/national", "/region")
-                                       self$target_folder <- paste0(highest_folder, middle_folder, "/national")
-                                       self$summary_dir <- paste0(highest_folder, middle_folder, "/summary")
+                                       self$target_folder <- paste0(root_dir, highest_folder, middle_folder, tail_target_folder)
+                                       self$summary_dir <- paste0(root_dir, highest_folder, middle_folder, "/summary")
                                      }))
 
 Region <- R6Class("Region",

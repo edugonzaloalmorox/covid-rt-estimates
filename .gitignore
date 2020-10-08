@@ -8,3 +8,6 @@ Rplots.pdf
 *.log
 .Rhistory
 .idea
+national/
+region/
+subnational/
