@@ -10,7 +10,7 @@ Rplots.pdf
 .RData
 .idea
 /data/runtime/config.R
-/national/
-/region/
-/subnational/
+/data/results/national/
+/data/results/region/
+/data/results/subnational/
 /.RData
