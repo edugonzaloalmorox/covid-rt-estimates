@@ -49,15 +49,26 @@ setup_future <- function(jobs, min_cores_per_worker = 4) {
 
 
 #' Check data to see if updated since last run
-check_for_update <- function(cases, last_run) {
+#' @param cases data frame of cases
+#' @param last_run filename for last run rds file
+#' @param last_dataverse_run Date | NA last date from dataverse
+#' @return Bool True for new data to process
+check_for_update <- function(cases, last_run, last_dataverse_run = NA) {
   current_max_date <- max(cases$date, na.rm = TRUE)
-
-  if (file.exists(last_run)) {
+  if (lubridate::is.Date(last_dataverse_run)) {
+    if (current_max_date <= last_dataverse_run) {
+      futile.logger::flog.info("Data has not been updated since last run. If wanting to run again then use the -f force flag")
+      futile.logger::flog.debug("Max date in data - %s, last run date from dataverse - %s",
+                                format(current_max_date, "%Y-%m-%d"),
+                                format(last_dataverse_run, "%Y-%m-%d"))
+      return(FALSE)
+    }
+  }else if (file.exists(last_run)) {
     futile.logger::flog.trace("last_run file (%s) exists, loading.", last_run)
     last_run_date <- readRDS(last_run)
 
     if (current_max_date <= last_run_date) {
-      futile.logger::flog.info("Data has not been updated since last run. If wanting to run again then remove %s", last_run)
+      futile.logger::flog.info("Data has not been updated since last run. If wanting to run again then remove %s or use the -f force flag", last_run)
       futile.logger::flog.debug("Max date in data - %s, last run date from file - %s",
                                 format(current_max_date, "%Y-%m-%d"),
                                 format(last_run_date, "%Y-%m-%d"))

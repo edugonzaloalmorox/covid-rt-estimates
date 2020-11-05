@@ -3,6 +3,8 @@
 if (!exists("DATAVERSE_KEY", mode = "function")
   & file.exists(here::here("data/runtime", "config.R"))) source(here::here("data/runtime", "config.R"))
 
+if (!exists("DATAVERSE_KEY", mode = "function")) source(here::here("data/runtime", "config.R"))
+
 #' Cache to save re-loading
 cfid_existing_dataset <- list(name = "", dataset = list())
 
@@ -54,7 +56,7 @@ check_for_existing_id <- function(dataset_name, use_cache = TRUE) {
 
 #' get_latest_source_data_date
 #' @param name string dataset name
-#' @returns String|NA of end of collection data from the dataset metadata
+#' @returns Date|NA of end of collection data from the dataset metadata
 get_latest_source_data_date <- function(dataset_name) {
   existing <- check_for_existing_id(dataset_name)
   if (is.list(existing)) {
@@ -63,7 +65,8 @@ get_latest_source_data_date <- function(dataset_name) {
     # test only 1 row
     if (length(date_of_collection_list) == 1) {
       date_of_collection <- date_of_collection_list[[1]]
-      return(date_of_collection$dateOfCollectionEnd$value)
+      end_date <- as.Date(date_of_collection$dateOfCollectionEnd$value, format = "%Y-%m-%d")
+      return(end_date)
     }
   }
   return(NA)

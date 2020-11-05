@@ -7,6 +7,7 @@ require(lubridate, quietly = TRUE)
 
 # Load utils --------------------------------------------------------------
 if (!exists("setup_log", mode = "function")) source(here::here("R", "utils.R"))
+if (!exists("get_latest_source_data_date", mode = "function")) source(here::here("R", "dataverse-utils.R"))
 
 
 #' Update Regional
@@ -16,9 +17,45 @@ if (!exists("setup_log", mode = "function")) source(here::here("R", "utils.R"))
 #' @param excludes Dataframe containing regions to exclude
 #' @param includes Dataframe containing the only regions to include
 #' @param max_execution_time Integer specifying the timeout in seconds
+#' @param refresh Bool force removal of previous results before processing to guarantee a full refresh
+#' @return List of runtime info
 update_regional <- function(location, excludes, includes, force, max_execution_time, refresh) {
 
   futile.logger::flog.info("Processing dataset for %s", location$name)
+  location <- ur_load_ancil_files(location)
+
+  # Get cases  ---------------------------------------------------------------
+  cases <- ur_load_cases(location)
+
+  cases <- ur_modify_cases(cases, location, excludes, includes)
+
+  # Check to see if there is data and if the data has been updated  ------------------------------
+  out <- list()
+  if (cases[, .N] > 0) {
+    if (!force) {
+      last_dataverse_run <- get_latest_source_data_date(location$name)
+      new_data_exists <- check_for_update(cases, last_run = here::here("last-update", paste0(location$name, ".rds")), last_dataverse_run = last_dataverse_run)
+    }
+    if (force | new_data_exists) {
+      out <- ur_process_cases(cases, location, max_execution_time)
+    }
+  }
+  if (cases[, .N] == 0) {
+    futile.logger::flog.warning("no cases left for region so not processing!")
+  }
+  # add some stats
+  out$max_data_date <- max(cases$date, na.rm = TRUE)
+  out$oldest_results <- ur_get_oldest_result(location)
+
+  return(out)
+}
+
+#' ur_load_ancil_files
+#' process the location and prime all the ancillary data if it's not already loaded
+#' @param location AbstractDataset
+#' @return AbstractDataset
+ur_load_ancil_files <- function(location) {
+
   futile.logger::flog.trace("loading ancillary data")
   # Update delays -----------------------------------------------------------
   if (!is.list(location$generation_time)) {
@@ -39,8 +76,13 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
       location$reporting_delay <- readRDS(here::here("data", "onset_to_admission_delay.rds"))
     }
   }
+  return(location)
+}
 
-  # Get cases  ---------------------------------------------------------------
+#' ur_load_cases
+#' load the cases for a given location
+#' return DataTable of cases
+ur_load_cases <- function(location) {
   futile.logger::flog.trace("loading cases")
   if ("Region" %in% class(location)) {
     if (is.na(location$covid_regional_data_identifier)) {
@@ -56,7 +98,17 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
     futile.logger::flog.info("Getting national data for %s", location$name)
     cases <- data.table::setDT(covidregionaldata::get_national_data(source = location$covid_national_data_identifier))
   }
+  return(cases)
+}
 
+#' ur_modify_cases
+#' do all the manipulation of the cases
+#' @param cases dataTable of cases
+#' @param location AbstractDataset
+#' @param excludes List of DatasetLocations
+#' @param includes List of DatasetLocations
+#' @returns cases
+ur_modify_cases <- function(cases, location, excludes, includes) {
   if (typeof(location$case_modifier) == "closure") {
     futile.logger::flog.trace("Modifying data")
     cases <- location$case_modifier(cases)
@@ -105,82 +157,92 @@ update_regional <- function(location, excludes, includes, force, max_execution_t
 
   cases <- clean_regional_data(cases, truncation = location$truncation)
 
-  # Check to see if there is data and if the data has been updated  ------------------------------
-  if (cases[, .N] > 0 && (force || check_for_update(cases, last_run = here::here("last-update", paste0(location$name, ".rds"))))) {
-    # Set up cores -----------------------------------------------------
-    no_cores <- setup_future(length(unique(cases$region)))
+  return(cases)
+}
 
-    if (refresh) {
-      if (dir.exists(location$target_folder)) {
-        futile.logger::flog.trace("removing estimates in order to refresh")
-        unlink(location$target_folder, recursive = TRUE)
-      }
-    }
-    # Run Rt estimation -------------------------------------------------------
-    futile.logger::flog.trace("calling regional_epinow")
-    out <- regional_epinow(reported_cases = cases,
-                           generation_time = location$generation_time,
-                           delays = list(location$incubation_period, location$reporting_delay),
-                           non_zero_points = 14, horizon = 14, burn_in = 14, samples = 4000,
-                           stan_args = list(warmup = 500, cores = no_cores,
-                                            chains = ifelse(no_cores <= 4, 4, no_cores)),
-                           fixed_future_rt = TRUE, target_folder = location$target_folder,
-                           return_estimates = FALSE, summary = TRUE,
-                           return_timings = TRUE, future = TRUE,
-                           max_execution_time = max_execution_time)
-    futile.logger::flog.debug("resetting future plan to sequential")
-    future::plan("sequential")
+#' ur_process_cases
+#' Take cases, make results
+#' @param cases data table of cases
+#' @param location AbstractDataset
+#' @param max_execution_time integer number of seconds to kill model threads after
+#' @param refresh Bool force removal of old estimates to ensure clean summary
+#' @return List of runtime details
+ur_process_cases <- function(cases, location, max_execution_time, refresh) {
+  # Set up cores -----------------------------------------------------
+  no_cores <- setup_future(length(unique(cases$region)))
 
-    futile.logger::flog.trace("generating summary data")
-    regional_summary(
-      reported_cases = cases,
-      results_dir = location$target_folder,
-      summary_dir = location$summary_dir,
-      region_scale = location$region_scale,
-      all_regions = "Region" %in% class(location),
-      return_summary = FALSE
-    )
-  } else {
-    out <- list()
-  }
-  if (cases[, .N] == 0) {
-    futile.logger::flog.warning("no cases left for region so not processing!")
-  }
-  # add some stats
-  out$max_data_date <- max(cases$date, na.rm = TRUE)
-  out$oldest_results <- tryCatch(
-    min(
-      strptime(
-        strsplit(
-          system(
-            paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do git log -n 1 --pretty=format:"%ad" --date=iso -- "$f" 2>/dev/null; done'),
-            intern = TRUE),
-          '\\+\\d\\d\\d\\d',
-          perl = TRUE
-        )[[1]],
-        "%Y-%m-%d %H:%M:%S ")
-    )
-    , error = function(e) {
-      futile.logger::flog.debug("git not working - try stat")
-      tryCatch(
-        min(
-          strptime(
-            strsplit(
-              system(
-                paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do stat -c %y $f; done'),
-                intern = TRUE),
-              '\\+\\d\\d\\d\\d',
-              perl = TRUE
-            )[[1]],
-            "%Y-%m-%d %H:%M:%S ")
-        )
-        , error = function(e) {
-          futile.logger::flog.debug("stat failed, just use sys.date")
-          Sys.Date()
-        }
-      )
+  if (refresh) {
+    if (dir.exists(location$target_folder)) {
+      futile.logger::flog.trace("removing estimates in order to refresh")
+      unlink(location$target_folder, recursive = TRUE)
     }
+  }
+  # Run Rt estimation -------------------------------------------------------
+  futile.logger::flog.trace("calling regional_epinow")
+  out <- EpiNow2::regional_epinow(reported_cases = cases,
+                                  generation_time = location$generation_time,
+                                  delays = list(location$incubation_period, location$reporting_delay),
+                                  non_zero_points = 14, horizon = 14, burn_in = 14, samples = 4000,
+                                  stan_args = list(warmup = 500, cores = no_cores,
+                                                   chains = ifelse(no_cores <= 4, 4, no_cores)),
+                                  fixed_future_rt = TRUE, target_folder = location$target_folder,
+                                  return_estimates = FALSE, summary = TRUE,
+                                  return_timings = TRUE, future = TRUE,
+                                  max_execution_time = max_execution_time)
+  futile.logger::flog.debug("resetting future plan to sequential")
+  future::plan("sequential")
+
+  futile.logger::flog.trace("generating summary data")
+  EpiNow2::regional_summary(
+    reported_cases = cases,
+    results_dir = location$target_folder,
+    summary_dir = location$summary_dir,
+    region_scale = location$region_scale,
+    all_regions = "Region" %in% class(location),
+    return_summary = FALSE
   )
 
   return(out)
+}
+
+#'ur_get_oldest_result
+#' attempts to figure out the oldest date of generation for the section
+#' @param location AbstractDataset
+#' @returns Date
+ur_get_oldest_result <- function(location) {
+  return(
+    tryCatch(
+      min(
+        strptime(
+          strsplit(
+            system(
+              paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do git log -n 1 --pretty=format:"%ad" --date=iso -- "$f" 2>/dev/null; done'),
+              intern = TRUE),
+            '\\+\\d\\d\\d\\d',
+            perl = TRUE
+          )[[1]],
+          "%Y-%m-%d %H:%M:%S ")
+      )
+      , error = function(e) {
+        futile.logger::flog.debug("git not working - try stat")
+        tryCatch(
+          min(
+            strptime(
+              strsplit(
+                system(
+                  paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do stat -c %y $f; done'),
+                  intern = TRUE),
+                '\\+\\d\\d\\d\\d',
+                perl = TRUE
+              )[[1]],
+              "%Y-%m-%d %H:%M:%S ")
+          )
+          , error = function(e) {
+            futile.logger::flog.debug("stat failed, just use sys.date")
+            Sys.Date()
+          }
+        )
+      }
+    )
+  )
 }
