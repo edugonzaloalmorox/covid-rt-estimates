@@ -1,11 +1,13 @@
+#' Requires
+if (!exists("check_for_existing_id", mode = "function")) source(here::here("R/dataverse-utils.R"))
+
 #' Publish a dataset to a dataverse
 #' @param dataset AbstractDataset to publish or CollatedDerivative (they both have the required interface)
 #' @param files Boolean indicator as to if files should be uploaded. Helpful for test purposes
 #' @param production_date Date specifying when the data is for. Gets used as the production date in the metadata, defaults to today.
 publish_data <- function(dataset, files = TRUE, production_date = NA) {
   if (exists("DATAVERSE_SERVER") && exists("DATAVERSE_KEY")) {
-    Sys.setenv("DATAVERSE_SERVER" = DATAVERSE_SERVER)
-    Sys.setenv("DATAVERSE_KEY" = DATAVERSE_KEY)
+    set_dataverse_envs()
     if (require(dataverse)) {
       library(desc) # this is used to get the author data from the DESCRIPTION file
       full_dataset <- check_for_existing_id(dataset$name)
@@ -74,44 +76,20 @@ publish_data <- function(dataset, files = TRUE, production_date = NA) {
   }
   return()
 }
-# try to find an existing dataset using the dataset_name as an id in the keywords
-check_for_existing_id <- function(dataset_name) {
-  # load existing
-  existing_datasets <-
-    dataverse_contents(DATAVERSE_VERSEID, key = DATAVERSE_KEY, server = DATAVERSE_SERVER)
-  existing <- NA
-  for (existing_dataset in existing_datasets) {
-    # deaccessed datasets are not accessible anymore - they can be skipped over but you can't test
-    # for them from the data returned in the contents. Best I can find is they just 404 when you
-    # load them. :(
-    full_dataset <- tryCatch(get_dataset(existing_dataset$id),
-                             error = function(c) {
-                               NA
-                             }
-    )
-    if (!is.list(full_dataset)) {
-      next
-    }
-    # for some reason the metadata keywords are inside the citation bcollate_derivative(COLLATED_DERIVATIVES[[1]])lock... go figure
-    # loop over them looking for the keyword value and then check if it's the name of the dataset.
-    for (metadata in full_dataset$metadataBlocks$citation$fields$value) {
-      if (is.data.frame(metadata) &&
-        "keywordValue" %in% names(metadata) &&
-        dataset_name %in% metadata$keywordValue$value) {
-        existing <- full_dataset
-        break
-      }
-    }
-    if (is.list(existing)) {
-      break
-    }
-  }
-  return(existing)
-}
+
 # top level function for producing metadata
 generate_dataset_metadata <- function(dataset, production_date = NA) {
-
+  # load up some common files used for reference
   desc_file <- desc::description$new()
+  rt_table <- tryCatch(
+    {
+    tmp <- read.csv(here::here(paste(dataset$summary_dir, "rt.csv", sep = "/")))
+    transform(tmp, date = as.Date(date))
+  },
+    warning = function(w) { NA },
+    error = function(e) { NA }
+  )
+
   dataset_meta <- list(
     datasetVersion = list(
       license = "CC0",
@@ -119,11 +97,11 @@ generate_dataset_metadata <- function(dataset, production_date = NA) {
       metadataBlocks = list(
         citation = list(
           displayName = "Citation Metadata",
-          fields = get_fields_list(dataset, desc_file, production_date)
+          fields = get_fields_list(dataset, desc_file, production_date, rt_table)
         ),
         geospatial = list(
           displayName = "Geospatial Metadata",
-          fields = get_geographic_metadata_list(dataset)
+          fields = get_geographic_metadata_list(dataset, rt_table)
         )
       )
     )
@@ -132,7 +110,7 @@ generate_dataset_metadata <- function(dataset, production_date = NA) {
   return(dataset_meta)
 }
 #===== Here begins all the helper functions to produce sub-parts of the metadata =====#
-get_fields_list <- function(dataset, desc_file, production_date = NA) {
+get_fields_list <- function(dataset, desc_file, production_date = NA, rt_table = NA) {
   if (is.na(production_date)) {
     production_date <- Sys.Date()
   }
@@ -169,10 +147,13 @@ get_fields_list <- function(dataset, desc_file, production_date = NA) {
     get_dataset_description_list(dataset$publication_metadata),
     get_software_list(desc_file)
   )
+  if (is.list(rt_table)) {
+    fields_list <- append(fields_list, get_time_period_covered(rt_table))
+  }
   return(fields_list)
 }
 
-get_geographic_metadata_list <- function(dataset) {
+get_geographic_metadata_list <- function(dataset, rt_table = NA) {
   meta <- list()
   locations <- list()
   if ("Region" %in% class(dataset)) {
@@ -184,14 +165,9 @@ get_geographic_metadata_list <- function(dataset) {
                         )
     )
   }
-  summary_table <- tryCatch(
-    read.csv(paste(dataset$summary_dir, "summary_table.csv", sep = "/")),
-    warning = function(w) { NA },
-    error = function(e) { NA }
-  )
-  if (is.list(summary_table)) {
+  if (is.list(rt_table)) {
     if (dataset$publication_metadata$breakdown_unit %in% c("state", "region")) {
-      for (region in unique(summary_table[[dataset$region_scale]])) {
+      for (region in unique(rt_table[[tolower(dataset$region_scale)]])) {
         location_list <-
           list(
             country = get_country_list(dataset$publication_metadata$country)
@@ -209,7 +185,7 @@ get_geographic_metadata_list <- function(dataset) {
         )
       }
     }else if (dataset$publication_metadata$breakdown_unit == "continent") {
-      for (region in unique(summary_table[[dataset$region_scale]])) {
+      for (region in unique(rt_table[[dataset$region_scale]])) {
         locations <- append(locations,
                             list(
                               list(
@@ -224,7 +200,7 @@ get_geographic_metadata_list <- function(dataset) {
         )
       }
     }else if (dataset$publication_metadata$breakdown_unit == "country") {
-      for (country in unique(summary_table$Country)) {
+      for (country in unique(rt_table$Country)) {
         if (country %in% DATAVERSE_COUNTRIES) {
           locations <- append(locations,
                               list(
@@ -431,4 +407,55 @@ get_country_list <- function(country) {
     typeClass = "controlledVocabulary",
     value = country
   ))
+}
+
+#' get_time_period_covered
+#' @param rt_table Data.Frame of rt.csv
+get_time_period_covered <- function(rt_table) {
+  return(
+    list(
+      list(
+        typeName = "timePeriodCovered",
+        multiple = TRUE,
+        typeClass = "compound",
+        value = list(
+          list(
+            timePeriodCoveredStart = list(
+              typeName = "timePeriodCoveredStart",
+              multiple = FALSE,
+              typeClass = "primitive",
+              value = min(rt_table$date)
+            ),
+            timePeriodCoveredEnd = list(
+              typeName = "timePeriodCoveredEnd",
+              multiple = FALSE,
+              typeClass = "primitive",
+              value = max(rt_table$date)
+            )
+          )
+        )
+      ),
+      list(
+        typeName = "dateOfCollection",
+        multiple = TRUE,
+        typeClass = "compound",
+        value = list(
+          list(
+            timePeriodCoveredStart = list(
+              typeName = "dateOfCollectionStart",
+              multiple = FALSE,
+              typeClass = "primitive",
+              value = min(rt_table$date)
+            ),
+            timePeriodCoveredEnd = list(
+              typeName = "dateOfCollectionEnd",
+              multiple = FALSE,
+              typeClass = "primitive",
+              value = max(rt_table[rt_table$type == "estimate based on partial data", "date"])
+            )
+          )
+        )
+      )
+    )
+  )
 }

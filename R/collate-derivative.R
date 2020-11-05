@@ -3,6 +3,7 @@
 if (!exists("DATASETS", mode = "function")) source(here::here("R/lists", "dataset-list.R"))
 if (!exists("%in_ci%", mode = "function")) source(here::here("R", "utils.R"))
 if (!exists("publish_data", mode = "function")) source(here::here("R", "publish-data.R"))
+if (!exists("check_for_existing_id", mode = "function")) source(here::here("R/dataverse-utils.R"))
 
 #' collate_derivative
 #' @param derivative `CollatedDerivative` object to calculate
@@ -38,10 +39,7 @@ cd_prime_sources <- function(datasets, target) {
   sources <- vector(mode = "list", length = length(datasets))
   names(sources) <- names(datasets)
   # setup dataverse config if needed
-  if (exists("DATAVERSE_SERVER") && exists("DATAVERSE_KEY")) {
-    Sys.setenv("DATAVERSE_SERVER" = DATAVERSE_SERVER)
-    Sys.setenv("DATAVERSE_KEY" = DATAVERSE_KEY)
-  }
+  set_dataverse_envs()
   for (dataset_name in names(datasets)) {
     file <- NULL
     if (exists("DATAVERSE_SERVER") && exists("DATAVERSE_KEY")) {
