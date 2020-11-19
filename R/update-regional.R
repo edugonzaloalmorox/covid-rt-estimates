@@ -1,12 +1,12 @@
 # Packages -----------------------------------------------------------------
-require(EpiNow2, quietly = TRUE)
-require(covidregionaldata, quietly = TRUE)
-require(data.table, quietly = TRUE)
-require(future, quietly = TRUE)
-require(lubridate, quietly = TRUE)
+suppressPackageStartupMessages(require(EpiNow2, quietly = TRUE))
+suppressPackageStartupMessages(require(covidregionaldata, quietly = TRUE))
+suppressPackageStartupMessages(require(data.table, quietly = TRUE))
+suppressPackageStartupMessages(require(future, quietly = TRUE))
+suppressPackageStartupMessages(require(lubridate, quietly = TRUE))
 
 # Load utils --------------------------------------------------------------
-if (!exists("setup_log", mode = "function")) source(here::here("R", "utils.R"))
+if (!exists("setup_future", mode = "function")) source(here::here("R", "utils.R"))
 if (!exists("get_latest_source_data_date", mode = "function")) source(here::here("R", "dataverse-utils.R"))
 
 
@@ -179,27 +179,32 @@ ur_process_cases <- function(cases, location, max_execution_time, refresh) {
   }
   # Run Rt estimation -------------------------------------------------------
   futile.logger::flog.trace("calling regional_epinow")
-  out <- EpiNow2::regional_epinow(reported_cases = cases,
-                                  generation_time = location$generation_time,
-                                  delays = list(location$incubation_period, location$reporting_delay),
-                                  non_zero_points = 14, horizon = 14, burn_in = 14, samples = 4000,
-                                  stan_args = list(warmup = 500, cores = no_cores,
-                                                   chains = ifelse(no_cores <= 4, 4, no_cores)),
-                                  fixed_future_rt = TRUE, target_folder = location$target_folder,
-                                  return_estimates = FALSE, summary = TRUE,
-                                  return_timings = TRUE, future = TRUE,
-                                  max_execution_time = max_execution_time)
+  out <- futile.logger::ftry(
+    EpiNow2::regional_epinow(reported_cases = cases,
+                             generation_time = location$generation_time,
+                             delays = list(location$incubation_period, location$reporting_delay),
+                             non_zero_points = 14, horizon = 14, burn_in = 14, samples = 4000,
+                             stan_args = list(warmup = 500, cores = no_cores,
+                                              chains = ifelse(no_cores <= 4, 4, no_cores)),
+                             fixed_future_rt = TRUE, target_folder = location$target_folder,
+                             return_estimates = FALSE, summary = FALSE,
+                             return_timings = TRUE, future = TRUE,
+                             max_execution_time = max_execution_time
+    )
+  )
   futile.logger::flog.debug("resetting future plan to sequential")
   future::plan("sequential")
 
   futile.logger::flog.trace("generating summary data")
-  EpiNow2::regional_summary(
-    reported_cases = cases,
-    results_dir = location$target_folder,
-    summary_dir = location$summary_dir,
-    region_scale = location$region_scale,
-    all_regions = "Region" %in% class(location),
-    return_summary = FALSE
+  futile.logger::ftry(
+    EpiNow2::regional_summary(
+      reported_cases = cases,
+      results_dir = location$target_folder,
+      summary_dir = location$summary_dir,
+      region_scale = location$region_scale,
+      all_regions = "Region" %in% class(location),
+      return_summary = FALSE
+    )
   )
 
   return(out)
@@ -215,9 +220,11 @@ ur_get_oldest_result <- function(location) {
       min(
         strptime(
           strsplit(
-            system(
-              paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do git log -n 1 --pretty=format:"%ad" --date=iso -- "$f" 2>/dev/null; done'),
-              intern = TRUE),
+            suppressMessages(
+              system(
+                paste0('for f in ', location$target_folder, '/*/latest/summary.rds; do git log -n 1 --pretty=format:"%ad" --date=iso -- "$f" 2>/dev/null; done'),
+                intern = TRUE)
+            ),
             '\\+\\d\\d\\d\\d',
             perl = TRUE
           )[[1]],
